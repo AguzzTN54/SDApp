@@ -118,5 +118,34 @@
   <ItemGroup>
     <None Include="Resources\login.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\abjad dadine.png" />
+    <Content Include="Resources\buaty akun\buat akun dadine.jpg" />
+    <Content Include="Resources\buaty akun\buat akun.jpg" />
+    <Content Include="Resources\form awal\awal dadine.jpg" />
+    <Content Include="Resources\form awal\awal.jpg" />
+    <Content Include="Resources\kelas1 dadine.png" />
+    <Content Include="Resources\kelas1\abjad.jpg" />
+    <Content Include="Resources\kelas1\abjad.png" />
+    <Content Include="Resources\kelas1\angka.png" />
+    <Content Include="Resources\kelas1\form abjad.png" />
+    <Content Include="Resources\kelas1\form kelas1.jpg" />
+    <Content Include="Resources\kelas1\tombol abjad.png" />
+    <Content Include="Resources\kelas1\tombol suara.png" />
+    <Content Include="Resources\kelas1\warna.png" />
+    <Content Include="Resources\kelas\kelas dadine.jpg" />
+    <Content Include="Resources\kelas\kelas1.jpg" />
+    <Content Include="Resources\kelas\kelas2.jpg" />
+    <Content Include="Resources\kelas\kelas3.jpg" />
+    <Content Include="Resources\kelas\kelas4.jpg" />
+    <Content Include="Resources\kelas\kelas5.jpg" />
+    <Content Include="Resources\kelas\kelas6.jpg" />
+    <Content Include="Resources\kelas\pilih kelas.jpg" />
+    <Content Include="Resources\login\login dadine.jpg" />
+    <Content Include="Resources\login\login.jpg" />
+    <Content Include="Resources\tombol back.jpg" />
+    <Content Include="Resources\tombol home.jpg" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
