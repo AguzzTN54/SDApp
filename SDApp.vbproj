@@ -47,6 +47,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 8.0.20\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -77,6 +81,7 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="formabjad.Designer.vb">
       <DependentUpon>formabjad.vb</DependentUpon>
     </Compile>
@@ -95,6 +100,21 @@
     <Compile Include="kelas1.vb">
       <SubType>Form</SubType>
     </Compile>
+=======
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masuk.Designer.vb">
+      <DependentUpon>Masuk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Masuk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+>>>>>>> db07646eba4f9f1c3f2f41349fbf7aa621500ca0
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -111,11 +131,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Daftar.Designer.vb">
+      <DependentUpon>Daftar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Daftar.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="formabjad.resx">
       <DependentUpon>formabjad.vb</DependentUpon>
     </EmbeddedResource>
@@ -124,12 +151,22 @@
     </EmbeddedResource>
     <EmbeddedResource Include="kelas1.resx">
       <DependentUpon>kelas1.vb</DependentUpon>
+=======
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masuk.resx">
+      <DependentUpon>Masuk.vb</DependentUpon>
+>>>>>>> db07646eba4f9f1c3f2f41349fbf7aa621500ca0
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daftar.resx">
+      <DependentUpon>Daftar.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

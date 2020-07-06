@@ -32,7 +32,11 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
+<<<<<<< HEAD
             Me.MainForm = Global.SDApp.formabjad
+=======
+            Me.MainForm = Global.SDApp.Daftar
+>>>>>>> db07646eba4f9f1c3f2f41349fbf7aa621500ca0
         End Sub
     End Class
 End Namespace
