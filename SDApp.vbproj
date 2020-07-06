@@ -143,6 +143,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="kelas1.resx">
       <DependentUpon>kelas1.vb</DependentUpon>
+	</EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
