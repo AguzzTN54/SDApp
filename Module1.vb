@@ -1,19 +1,18 @@
-﻿Imports MySql.Data.MySqlClient
+﻿Imports System.Data.OleDb
 Module Module1
-	Public sql As String
-	Public ds As New DataSet
-	Public cmd As MySqlCommand
-	Public dr As MySqlDataReader
-	Public da As MySqlDataAdapter
+    Public conn As OleDbConnection
+    Public da As OleDbDataAdapter
+    Public ds As DataSet
+    Public cmd As OleDbCommand
+    Public dr As OleDbDataReader
 
-	Public conn As New MySqlConnection
-	Public Sub conndb()
-		Try
-			conn = New MySqlConnection("datasource=localhost; port=3306; username=root; password=; database=db_sekolah;")
-			conn.Open()
-		Catch ex As Exception
-			MsgBox("Gagal", MsgBoxStyle.Information, "Database")
-		End Try
-	End Sub
+    Sub KoneksiDB()
+        Try
+            conn = New OleDbConnection("provider=microsoft.jet.oledb.4.0; data source=SDApp.accdb")
+            conn.Open()
+        Catch ex As Exception
+            MsgBox(ex.Message)
 
+        End Try
+    End Sub
 End Module
