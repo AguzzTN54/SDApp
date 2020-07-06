@@ -77,6 +77,24 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="formabjad.Designer.vb">
+      <DependentUpon>formabjad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formabjad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pilihkelas.Designer.vb">
+      <DependentUpon>pilihkelas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pilihkelas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kelas1.Designer.vb">
+      <DependentUpon>kelas1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kelas1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form2.Designer.vb">
       <DependentUpon>Form2.vb</DependentUpon>
     </Compile>
@@ -117,6 +135,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formabjad.resx">
+      <DependentUpon>formabjad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pilihkelas.resx">
+      <DependentUpon>pilihkelas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kelas1.resx">
+      <DependentUpon>kelas1.vb</DependentUpon>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
