@@ -214,28 +214,21 @@
     <None Include="SDApp_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\Images\Classes\Kelas1\abjad.jpg" />
-    <Content Include="Resources\Images\Classes\Kelas1\abjad.png" />
-    <Content Include="Resources\Images\Classes\Kelas1\angka.png" />
-    <Content Include="Resources\Images\Classes\Kelas1\form abjad.png" />
-    <Content Include="Resources\Images\Classes\Kelas1\form kelas1.jpg" />
-    <Content Include="Resources\Images\Classes\Kelas1\tombol abjad.png" />
-    <Content Include="Resources\Images\Classes\Kelas1\tombol suara.png" />
-    <Content Include="Resources\Images\Classes\Kelas1\warna.png" />
-    <Content Include="Resources\Images\PilihKelas\kelas1.jpg" />
-    <Content Include="Resources\Images\PilihKelas\kelas2.jpg" />
-    <Content Include="Resources\Images\PilihKelas\kelas3.jpg" />
-    <Content Include="Resources\Images\PilihKelas\kelas4.jpg" />
-    <Content Include="Resources\Images\PilihKelas\kelas5.jpg" />
-    <Content Include="Resources\Images\PilihKelas\kelas6.jpg" />
-    <Content Include="Resources\Images\PilihKelas\pilih-kelas.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas1\abjad.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas1\abjad.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\angka.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\form abjad.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\form kelas1.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas1\tombol abjad.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\tombol suara.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\warna.png" />
+    <Content Include="Resources\Assets\PilihKelas\pilih-kelas.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Forms\Classes\Kelas1\Angka\" />
     <Folder Include="Forms\Classes\Kelas1\Warna\" />
-    <Folder Include="Forms\Classes\Kelas2\" />
-    <Folder Include="Resources\Images\Buttons\" />
-    <Folder Include="Resources\Images\Start\" />
+    <Folder Include="Resources\Assets\Buttons\" />
+    <Folder Include="Resources\Assets\Start\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
