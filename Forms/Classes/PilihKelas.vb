@@ -92,4 +92,8 @@
     Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
         Me.Hide()
     End Sub
+
+    Private Sub nama_Click(sender As Object, e As EventArgs) Handles nama.Click
+
+    End Sub
 End Class
