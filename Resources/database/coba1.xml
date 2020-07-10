@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>AguzzTN Yh.</Author>
+  <LastAuthor>AguzzTN Yh.</LastAuthor>
+  <Created>2020-07-10T06:18:53Z</Created>
+  <LastSaved>2020-07-10T06:24:10Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11310</WindowHeight>
+  <WindowWidth>20730</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="339.75"/>
+   <Column ss:Width="67.5" ss:Span="1"/>
+   <Row>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">grade</Data></Cell>
+    <Cell><Data ss:Type="String">sub_bab</Data></Cell>
+    <Cell><Data ss:Type="String">content</Data></Cell>
+    <Cell><Data ss:Type="String">next_content</Data></Cell>
+    <Cell><Data ss:Type="String">prev_content</Data></Cell>
+   </Row>
+   <Row ss:Height="255">
+    <Cell ss:Index="2"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">direction</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Kalimat Giving Direction (Menunjukkan arah)&#10;• Go straight on till you see the hospital then turn left.&#10;&#10;(lurus terus sampai kamu melihat rumah sakit lalu belok kiri)&#10;• Turn back, you have gone past the turning.&#10; (kembali, tujuanmu sudah terlewat)&#10;• Turn left when you see a roundabout.&#10; (belok kiri ketika kamu melihat bunderan)&#10;• Turn right at the end of the road and my house is number 67.&#10; (belok kanan di akhir jalan dan nomor rumahku adalah 67)&#10;• Cross the junction and keep going for about 1 mile.&#10; (sebrangi persimpangan dan lurus terus sekitar 1 mil)&#10;• Take the third road on the right and you will see the office on the right&#10; (ambil jalur ketiga di sebelah kanan dan kamu akan melihat kantor di sebelah kanan)&#10;• Take the third road on the right and you will see the shop on the left</Data></Cell>
+   </Row>
+   <Row ss:Height="255">
+    <Cell ss:Index="2"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">arah</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Kalimat Giving Direction (Menunjukkan arah)&#10;• Go straight on till you see the hospital then turn left.&#10;&#10;(lurus terus sampai kamu melihat rumah sakit lalu belok kiri)&#10;• Turn back, you have gone past the turning.&#10; (kembali, tujuanmu sudah terlewat)&#10;• Turn left when you see a roundabout.&#10; (belok kiri ketika kamu melihat bunderan)&#10;• Turn right at the end of the road and my house is number 67.&#10; (belok kanan di akhir jalan dan nomor rumahku adalah 67)&#10;• Cross the junction and keep going for about 1 mile.&#10; (sebrangi persimpangan dan lurus terus sekitar 1 mil)&#10;• Take the third road on the right and you will see the office on the right&#10; (ambil jalur ketiga di sebelah kanan dan kamu akan melihat kantor di sebelah kanan)&#10;• Take the third road on the right and you will see the shop on the left</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>2</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

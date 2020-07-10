@@ -19,18 +19,6 @@
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
-  <PropertyGroup>
-    <ManifestCertificateThumbprint>E5875066FC1C43B8D1DB48EE9F5D07C57112B020</ManifestCertificateThumbprint>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestKeyFile>SDApp_TemporaryKey.pfx</ManifestKeyFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignManifests>true</SignManifests>
-  </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -107,6 +95,18 @@
     <Compile Include="Forms\Classes\Kelas1\Alphabets\Alphabets.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Classes\Kelas1\Angka\NumberItem.Designer.vb">
+      <DependentUpon>NumberItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas1\Angka\NumberItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas1\Angka\Numbers.Designer.vb">
+      <DependentUpon>Numbers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas1\Angka\Numbers.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Start\Start.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +172,12 @@
     <EmbeddedResource Include="Forms\Classes\Kelas1\Alphabets\Alphabets.resx">
       <DependentUpon>Alphabets.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas1\Angka\NumberItem.resx">
+      <DependentUpon>NumberItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas1\Angka\Numbers.resx">
+      <DependentUpon>Numbers.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Start\Start.resx">
       <DependentUpon>Start.vb</DependentUpon>
     </EmbeddedResource>
@@ -211,24 +217,124 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="SDApp_TemporaryKey.pfx" />
+    <None Include="Resources\database\SDApp.ldb" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\Assets\Buttons\back.png" />
+    <Content Include="Resources\Assets\Buttons\home.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\abjad.jpg" />
     <Content Include="Resources\Assets\Classes\Kelas1\abjad.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\a.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\b.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\c.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\d.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\e.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\f.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\g.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\h.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\i.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\j.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\k.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\l.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\m.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\n.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\o.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\p.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\q.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\r.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\s.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\t.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\u.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\v.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\w.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\x.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\y.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\z.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\angka.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\form abjad.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\form kelas1.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\0.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\1.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\2.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\3.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\4.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\5.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\6.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\7.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\8.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\9.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\1.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\10.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\2.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\3.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\4.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\5.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\6.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\7.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\8.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\9.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\a.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\b.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\c.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\d.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\e.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\f.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\g.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\h.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\i.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\j.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\l.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\m.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\n.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\o.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\p.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\q.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\r.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\s.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\t.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\u.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\w.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\x.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\y.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\z.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\tombol abjad.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\tombol suara.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\warna.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\atthepark.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\background.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\command.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\Describing.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\direction.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\drawing.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\earth.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\expressing.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\folktales.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\gevornment.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\Health.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\holiday.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\Home-page-kelas-5-smt-1.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\Home-page-kelas-5-smt-2.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\Home-page-kelas-5.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\Home-page-kelas-6.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\owner.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\shopping.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\smt-1.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\smt-2.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\tourism.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\transparan.png" />
     <Content Include="Resources\Assets\PilihKelas\pilih-kelas.jpg" />
+    <Content Include="Resources\Assets\Start\awal.jpg" />
+    <Content Include="Resources\Assets\Start\daftar.jpg" />
+    <Content Include="Resources\Assets\Start\login.jpg" />
+    <Content Include="Resources\database\SDApp.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\database\SDApp.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Forms\Classes\Kelas1\Angka\" />
     <Folder Include="Forms\Classes\Kelas1\Warna\" />
-    <Folder Include="Resources\Assets\Buttons\" />
-    <Folder Include="Resources\Assets\Start\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">

@@ -1,0 +1,26 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    ID     |       grade        |      sub_bab       |                            content                            |    next_content    |    prev_content    |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|         1 |                  6 | direction          | Direction and Location (Arah dan Lokasi)                      |                  2 |                    |
+|           |                    |                    | Excuse me, could you tell me how to get to the nearest post   |                    |                    |
+|           |                    |                    | office?                                                       |                    |                    |
+|           |                    |                    | (permisi, bisakah kamu memberitahuku kemana arah kantor pos   |                    |                    |
+|           |                    |                    | terdekat?)                                                    |                    |                    |
+|           |                    |                    | • Excuse me, do you know where the nearest post office is?    |                    |                    |
+|           |                    |                    |                                                               |                    |                    |
+|           |                    |                    | (permisi, apakah kamu tahu dimana kantor pos terdekat?)       |                    |                    |
+|           |                    |                    | • Excuse me, can you show me the way to the station, please? |                    |                    |
+|           |                    |                    | 
+(permisi, bisakah kamu menunjukkan jalan ke stasiun,         |                    |                    |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|         2 |                  6 | direction          | Kalimat Giving Direction (Menunjukkan arah)                   |                    |                  1 |
+|           |                    |                    | •	Go straight on till you see the hospital then turn left.    |                    |                    |
+|           |                    |                    |                                                               |                    |                    |
+|           |                    |                    | (lurus terus sampai kamu melihat rumah sakit lalu belok kiri) |                    |                    |
+|           |                    |                    |                                                               |                    |                    |
+|           |                    |                    | •	Turn back, you have gone past the turning.                  |                    |                    |
+|           |                    |                    |  (kembali, tujuanmu sudah terlewat)                           |                    |                    |
+|           |                    |                    | •	Turn left when you see a roundabout.                        |                    |                    |
+|           |                    |                    |  (belok kiri ketika kamu melihat bunderan)                    |                    |                    |
+|           |                    |                    | •	Turn right at the end of the road and my house is number    |                    |                    |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
