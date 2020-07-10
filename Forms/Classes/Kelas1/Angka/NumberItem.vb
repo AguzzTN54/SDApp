@@ -1,6 +1,5 @@
-﻿Public Class AlphaItem
-    Private Sub formabjad_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
-
+﻿Public Class NumberItem
+    Private Sub NumberItem_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         With Button2
             .Parent = PictureBox1
             .FlatStyle = Windows.Forms.FlatStyle.Flat
@@ -17,7 +16,7 @@
             .FlatAppearance.MouseDownBackColor = Color.Transparent
             .FlatAppearance.MouseOverBackColor = Color.Transparent
             .BackColor = Color.Transparent
-            .Text = getAlpha.Text
+            .Text = getNumber.Text
         End With
 
         With Button4
@@ -30,27 +29,27 @@
         End With
 
         Dim Alpha As String
-        Alpha = getAlpha.Text
+        Alpha = getNumber.Text
 
         With showAbjad
-            .BackgroundImage = Image.FromFile("../../Resources/Assets/Classes/Kelas1/Alphabets/" & Alpha & ".png")
+            .BackgroundImage = Image.FromFile("../../Resources/Assets/Classes/Kelas1/Numbers/" & Alpha & ".png")
         End With
+
     End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Me.Hide()
-        Alphabets.Show()
+        Numbers.Show()
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Me.Hide()
         PilihKelas.Show()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim Alpha As String
-        Alpha = getAlpha.Text
+        Alpha = getNumber.Text
         My.Computer.Audio.Play("../../Resources/Assets/Classes/Kelas1/Speechs/" & Alpha & ".wav")
     End Sub
-
 End Class

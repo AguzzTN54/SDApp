@@ -100,7 +100,7 @@ Partial Class AlphaItem
         '
         Me.showAbjad.BackColor = System.Drawing.Color.White
         Me.showAbjad.BackgroundImage = CType(resources.GetObject("showAbjad.BackgroundImage"), System.Drawing.Image)
-        Me.showAbjad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.showAbjad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.showAbjad.Cursor = System.Windows.Forms.Cursors.Hand
         Me.showAbjad.Enabled = False
         Me.showAbjad.FlatAppearance.BorderColor = System.Drawing.Color.DeepPink
