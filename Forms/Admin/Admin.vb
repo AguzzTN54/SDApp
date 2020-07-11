@@ -28,6 +28,8 @@
         cmd = New OleDb.OleDbCommand("update data_siswa set nama_siswa='" & TextBox2.Text & "' where id='" & TextBox1.Text & "'", conn)
         cmd.ExecuteNonQuery()
         MsgBox("Update data siswa berhasil")
+        Call TampilkanData()
+        Call Kosong()
     End Sub
 
     Private Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button2.Click
@@ -35,8 +37,9 @@
             MsgBox("Tidak ada data yang akan dihapus")
             Exit Sub
         Else
+            Dim id As String = TextBox1.Text
             Call KoneksiDB()
-            cmd = New OleDb.OleDbCommand("delete from data_siswa where id='" & TextBox1.Text & "'", conn)
+            cmd = New OleDb.OleDbCommand("delete from data_siswa where id='" & id & "'", conn)
             cmd.ExecuteNonQuery()
             MsgBox("Data siswa berhasil dihapus")
             Call TampilkanData()
