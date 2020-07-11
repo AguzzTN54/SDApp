@@ -260,7 +260,6 @@
   <ItemGroup>
     <Content Include="Resources\Assets\Buttons\back.png" />
     <Content Include="Resources\Assets\Buttons\home.png" />
-    <Content Include="Resources\Assets\Classes\Kelas1\abjad.jpg" />
     <Content Include="Resources\Assets\Classes\Kelas1\abjad.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\a.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\b.png" />
@@ -291,7 +290,7 @@
     <Content Include="Resources\Assets\Classes\Kelas1\angka.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\form abjad.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\form kelas1.jpg" />
-    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\0.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\10.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Numbers\1.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Numbers\2.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Numbers\3.png" />

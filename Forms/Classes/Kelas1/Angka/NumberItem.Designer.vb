@@ -153,6 +153,7 @@ Partial Class NumberItem
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "NumberItem"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "NumberItem"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
