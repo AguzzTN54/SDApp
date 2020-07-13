@@ -225,13 +225,11 @@
     <EmbeddedResource Include="Forms\Classes\Kelas1\Angka\Numbers.resx">
       <DependentUpon>Numbers.vb</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\MateriKelas6.resx">
       <DependentUpon>MateriKelas6.vb</DependentUpon>
-=======
+	</EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\Holiday\Holiday.resx">
       <DependentUpon>Holiday.vb</DependentUpon>
->>>>>>> master
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas7\MainKelas7.resx">
       <DependentUpon>MainKelas7.vb</DependentUpon>
