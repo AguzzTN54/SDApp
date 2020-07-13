@@ -51,11 +51,11 @@ Partial Class MainKelas6
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.Location = New System.Drawing.Point(68, 286)
+        Me.Button1.Location = New System.Drawing.Point(89, 286)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(105, 171)
+        Me.Button1.Size = New System.Drawing.Size(120, 133)
         Me.Button1.TabIndex = 1
         Me.Button1.UseVisualStyleBackColor = False
         '
@@ -63,11 +63,11 @@ Partial Class MainKelas6
         '
         Me.Button2.BackColor = System.Drawing.Color.Transparent
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Location = New System.Drawing.Point(196, 286)
+        Me.Button2.Location = New System.Drawing.Point(233, 286)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(158, 171)
+        Me.Button2.Size = New System.Drawing.Size(120, 133)
         Me.Button2.TabIndex = 2
         Me.Button2.UseVisualStyleBackColor = False
         '
@@ -75,7 +75,7 @@ Partial Class MainKelas6
         '
         Me.Button3.BackColor = System.Drawing.Color.Transparent
         Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
-        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button3.Location = New System.Drawing.Point(375, 286)
         Me.Button3.Name = "Button3"
@@ -87,7 +87,7 @@ Partial Class MainKelas6
         '
         Me.Button4.BackColor = System.Drawing.Color.Transparent
         Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
-        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button4.Location = New System.Drawing.Point(513, 286)
         Me.Button4.Name = "Button4"
@@ -99,7 +99,7 @@ Partial Class MainKelas6
         '
         Me.Button5.BackColor = System.Drawing.Color.Transparent
         Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
-        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button5.Location = New System.Drawing.Point(651, 286)
         Me.Button5.Name = "Button5"
@@ -111,7 +111,7 @@ Partial Class MainKelas6
         '
         Me.Button6.BackColor = System.Drawing.Color.Transparent
         Me.Button6.BackgroundImage = CType(resources.GetObject("Button6.BackgroundImage"), System.Drawing.Image)
-        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button6.Location = New System.Drawing.Point(793, 286)
         Me.Button6.Name = "Button6"
