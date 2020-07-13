@@ -1,5 +1,4 @@
 ﻿Public Class MainKelas7
-
     Function ambilMateri(ByVal id)
         Call KoneksiDB()
         cmd = New OleDb.OleDbCommand("select * from data_materi where id=" & id & "", conn)
@@ -36,7 +35,7 @@
 
     Private Sub MainKelas7_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call KoneksiDB()
-        cmd = New OleDb.OleDbCommand("Select min(id) from data_materi where grade=7 and sub_bab='contoh'", conn)
+        cmd = New OleDb.OleDbCommand("Select min(id) from data_materi where grade=7 and sub_bab='" & Button3.Tag & "'", conn)
         dr = cmd.ExecuteReader
         dr.Read()
 

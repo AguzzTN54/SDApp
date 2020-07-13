@@ -1,5 +1,4 @@
 ﻿Public Class PilihKelas
-
     Private Sub PilihKelas_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
 
         With Button1
@@ -89,19 +88,11 @@
         MainKelas1.Show()
     End Sub
 
-    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
-        Me.Hide()
-    End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
-    End Sub
-    Private Sub nama_Click(sender As Object, e As EventArgs) Handles nama.Click
-
-    End Sub
-
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        Dim kls7 As New MainKelas7
+        kls7.Button3.Tag = "contoh"
+        kls7.Button3.Text = "Iki Direction"
         Me.Hide()
-        MainKelas7.Show()
+        kls7.Show()
     End Sub
 End Class
