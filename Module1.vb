@@ -11,8 +11,8 @@ Module Module1
             '' MS. Jet OleDB ndak support di laptop aing, tinggal ganti hilangin tanda petik di depan di DB yang mau dipake
 
             'conn = New OleDbConnection("provider=microsoft.jet.oledb.4.0; data source=SDApp.accdb")
-            conn = New OleDbConnection("provider=microsoft.jet.oledb.4.0; data source=../../Resources/database/SDApp.mdb")
-            'conn = New OleDbConnection("provider=Microsoft.ACE.OLEDB.12.0; data source=../../Resources/database/SDApp.mdb")
+            conn = New OleDbConnection("provider=microsoft.jet.oledb.4.0; data source=../../Resources/database/kelas6.mdb")
+            'conn = New OleDbConnection("provider=Microsoft.ACE.OLEDB.12.0; data source=../../Resources/database/kelas6.mdb")
 
             conn.Open()
         Catch ex As Exception
