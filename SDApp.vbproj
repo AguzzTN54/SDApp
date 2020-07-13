@@ -135,10 +135,14 @@
     <Compile Include="Forms\Classes\Kelas1\Angka\Numbers.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Classes\Kelas6\Materi\MateriKelas6.Designer.vb">
+    <Compile Include="Forms\Classes\Kelas6\MateriKelas6.Designer.vb">
       <DependentUpon>MateriKelas6.vb</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Forms\Classes\Kelas6\Materi\MateriKelas6.vb">
+=======
+    <Compile Include="Forms\Classes\Kelas6\MateriKelas6.vb">
+>>>>>>> master
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Classes\Kelas7\MainKelas7.Designer.vb">
@@ -228,7 +232,7 @@
     <EmbeddedResource Include="Forms\Classes\Kelas1\Angka\Numbers.resx">
       <DependentUpon>Numbers.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\MateriKelas6.resx">
+    <EmbeddedResource Include="Forms\Classes\Kelas6\MateriKelas6.resx">
       <DependentUpon>MateriKelas6.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas7\MainKelas7.resx">
