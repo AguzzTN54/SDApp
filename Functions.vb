@@ -1,4 +1,4 @@
-﻿Imports Markdig
+Imports Markdig
 Module Functions
 
     Function bacaMateri(ByVal text)

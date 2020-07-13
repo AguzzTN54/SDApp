@@ -105,6 +105,12 @@
     <Compile Include="Forms\Classes\Kelas1\Alphabets\Alphabets.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Classes\Kelas5\MainKelas5.Designer.vb">
+      <DependentUpon>MainKelas5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas5\MainKelas5.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Classes\Kelas6\MainKelas6.Designer.vb">
       <DependentUpon>MainKelas6.vb</DependentUpon>
     </Compile>
@@ -127,6 +133,12 @@
       <DependentUpon>MateriKelas6.vb</DependentUpon>
     </Compile>
     <Compile Include="Forms\Classes\Kelas6\Materi\MateriKelas6.vb">
+		<SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas6\Materi\Holiday\Holiday.Designer.vb">
+      <DependentUpon>Holiday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas6\Materi\Holiday\Holiday.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Classes\Kelas7\MainKelas7.Designer.vb">
@@ -201,6 +213,9 @@
     <EmbeddedResource Include="Forms\Classes\Kelas1\Alphabets\Alphabets.resx">
       <DependentUpon>Alphabets.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas5\MainKelas5.resx">
+      <DependentUpon>MainKelas5.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas6\MainKelas6.resx">
       <DependentUpon>MainKelas6.vb</DependentUpon>
     </EmbeddedResource>
@@ -210,8 +225,13 @@
     <EmbeddedResource Include="Forms\Classes\Kelas1\Angka\Numbers.resx">
       <DependentUpon>Numbers.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\MateriKelas6.resx">
       <DependentUpon>MateriKelas6.vb</DependentUpon>
+=======
+    <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\Holiday\Holiday.resx">
+      <DependentUpon>Holiday.vb</DependentUpon>
+>>>>>>> master
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas7\MainKelas7.resx">
       <DependentUpon>MainKelas7.vb</DependentUpon>
@@ -260,7 +280,6 @@
   <ItemGroup>
     <Content Include="Resources\Assets\Buttons\back.png" />
     <Content Include="Resources\Assets\Buttons\home.png" />
-    <Content Include="Resources\Assets\Classes\Kelas1\abjad.jpg" />
     <Content Include="Resources\Assets\Classes\Kelas1\abjad.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\a.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\b.png" />
@@ -291,7 +310,7 @@
     <Content Include="Resources\Assets\Classes\Kelas1\angka.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\form abjad.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\form kelas1.jpg" />
-    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\0.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\10.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Numbers\1.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Numbers\2.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Numbers\3.png" />
