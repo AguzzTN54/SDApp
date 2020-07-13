@@ -117,12 +117,6 @@
     <Compile Include="Forms\Classes\Kelas6\MainKelas6.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Classes\Kelas6\Materi\Direction\Direction1.Designer.vb">
-      <DependentUpon>Direction1.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Classes\Kelas6\Materi\Direction\Direction1.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Forms\Classes\Kelas1\Angka\NumberItem.Designer.vb">
       <DependentUpon>NumberItem.vb</DependentUpon>
     </Compile>
@@ -134,6 +128,12 @@
     </Compile>
     <Compile Include="Forms\Classes\Kelas1\Angka\Numbers.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas6\Materi\MateriKelas6.Designer.vb">
+      <DependentUpon>MateriKelas6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas6\Materi\MateriKelas6.vb">
+		<SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Classes\Kelas6\Materi\Holiday\Holiday.Designer.vb">
       <DependentUpon>Holiday.vb</DependentUpon>
@@ -219,17 +219,19 @@
     <EmbeddedResource Include="Forms\Classes\Kelas6\MainKelas6.resx">
       <DependentUpon>MainKelas6.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\Direction\Direction1.resx">
-      <DependentUpon>Direction1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas1\Angka\NumberItem.resx">
       <DependentUpon>NumberItem.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas1\Angka\Numbers.resx">
       <DependentUpon>Numbers.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\MateriKelas6.resx">
+      <DependentUpon>MateriKelas6.vb</DependentUpon>
+=======
     <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\Holiday\Holiday.resx">
       <DependentUpon>Holiday.vb</DependentUpon>
+>>>>>>> master
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas7\MainKelas7.resx">
       <DependentUpon>MainKelas7.vb</DependentUpon>
