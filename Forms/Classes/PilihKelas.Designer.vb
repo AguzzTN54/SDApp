@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class PilihKelas
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class PilihKelas
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PilihKelas))
         Me.Button7 = New System.Windows.Forms.Button()
@@ -33,7 +33,6 @@ Partial Class PilihKelas
         Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.nama = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -148,25 +147,12 @@ Partial Class PilihKelas
         Me.nama.Text = "NAMA"
         Me.nama.UseVisualStyleBackColor = True
         '
-        'Button9
-        '
-        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button9.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(780, 364)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(124, 122)
-        Me.Button9.TabIndex = 12
-        Me.Button9.Text = "KELAS 7"
-        Me.Button9.UseVisualStyleBackColor = True
-        '
         'PilihKelas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(984, 621)
-        Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.nama)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button8)
@@ -198,5 +184,4 @@ Partial Class PilihKelas
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents nama As System.Windows.Forms.Button
-    Friend WithEvents Button9 As Button
 End Class

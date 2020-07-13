@@ -88,11 +88,8 @@
         MainKelas1.Show()
     End Sub
 
-    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
-        Dim kls7 As New MainKelas7
-        kls7.Button3.Tag = "contoh"
-        kls7.Button3.Text = "Iki Direction"
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         Me.Hide()
-        kls7.Show()
+        MainKelas6.Show()
     End Sub
 End Class

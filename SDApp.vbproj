@@ -133,7 +133,7 @@
       <DependentUpon>MateriKelas6.vb</DependentUpon>
     </Compile>
     <Compile Include="Forms\Classes\Kelas6\Materi\MateriKelas6.vb">
-		<SubType>Form</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Classes\Kelas6\Materi\Holiday\Holiday.Designer.vb">
       <DependentUpon>Holiday.vb</DependentUpon>
@@ -227,7 +227,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\MateriKelas6.resx">
       <DependentUpon>MateriKelas6.vb</DependentUpon>
-	</EmbeddedResource>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\Holiday\Holiday.resx">
       <DependentUpon>Holiday.vb</DependentUpon>
     </EmbeddedResource>
