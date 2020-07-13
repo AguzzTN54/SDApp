@@ -129,16 +129,10 @@
     <Compile Include="Forms\Classes\Kelas1\Angka\Numbers.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Classes\Kelas6\Materi\MateriKelas6.Designer.vb">
+    <Compile Include="Forms\Classes\Kelas6\MateriKelas6.Designer.vb">
       <DependentUpon>MateriKelas6.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Classes\Kelas6\Materi\MateriKelas6.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Classes\Kelas6\Materi\Holiday\Holiday.Designer.vb">
-      <DependentUpon>Holiday.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Classes\Kelas6\Materi\Holiday\Holiday.vb">
+    <Compile Include="Forms\Classes\Kelas6\MateriKelas6.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Classes\Kelas7\MainKelas7.Designer.vb">
@@ -225,11 +219,8 @@
     <EmbeddedResource Include="Forms\Classes\Kelas1\Angka\Numbers.resx">
       <DependentUpon>Numbers.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\MateriKelas6.resx">
+    <EmbeddedResource Include="Forms\Classes\Kelas6\MateriKelas6.resx">
       <DependentUpon>MateriKelas6.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Classes\Kelas6\Materi\Holiday\Holiday.resx">
-      <DependentUpon>Holiday.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas7\MainKelas7.resx">
       <DependentUpon>MainKelas7.vb</DependentUpon>
