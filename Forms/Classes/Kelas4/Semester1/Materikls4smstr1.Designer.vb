@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class MateriKelas6
+Partial Class Materikls4smstr1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class MateriKelas6
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MateriKelas6))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Materikls4smstr1))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.WebView1 = New Microsoft.Toolkit.Forms.UI.Controls.WebView()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -47,10 +47,10 @@ Partial Class MateriKelas6
         '
         'WebView1
         '
-        Me.WebView1.Location = New System.Drawing.Point(37, 157)
+        Me.WebView1.Location = New System.Drawing.Point(44, 155)
         Me.WebView1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebView1.Name = "WebView1"
-        Me.WebView1.Size = New System.Drawing.Size(908, 368)
+        Me.WebView1.Size = New System.Drawing.Size(896, 391)
         Me.WebView1.TabIndex = 1
         '
         'Button1
@@ -60,9 +60,9 @@ Partial Class MateriKelas6
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Bahnschrift", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(498, 549)
+        Me.Button1.Location = New System.Drawing.Point(500, 552)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 25)
+        Me.Button1.Size = New System.Drawing.Size(75, 26)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Next"
         Me.Button1.UseVisualStyleBackColor = False
@@ -75,9 +75,9 @@ Partial Class MateriKelas6
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Bahnschrift", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(417, 549)
+        Me.Button2.Location = New System.Drawing.Point(419, 552)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 25)
+        Me.Button2.Size = New System.Drawing.Size(75, 26)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "Back"
         Me.Button2.UseVisualStyleBackColor = False
@@ -89,10 +89,10 @@ Partial Class MateriKelas6
         Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.Location = New System.Drawing.Point(782, 531)
+        Me.Button3.Location = New System.Drawing.Point(789, 552)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(71, 61)
-        Me.Button3.TabIndex = 10
+        Me.Button3.Size = New System.Drawing.Size(66, 64)
+        Me.Button3.TabIndex = 14
         Me.Button3.UseVisualStyleBackColor = False
         Me.Button3.Visible = False
         '
@@ -102,29 +102,27 @@ Partial Class MateriKelas6
         Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button4.Location = New System.Drawing.Point(861, 531)
+        Me.Button4.Location = New System.Drawing.Point(858, 552)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(71, 61)
-        Me.Button4.TabIndex = 9
+        Me.Button4.Size = New System.Drawing.Size(66, 64)
+        Me.Button4.TabIndex = 13
         Me.Button4.UseVisualStyleBackColor = False
         Me.Button4.Visible = False
         '
         'Button5
         '
-        Me.Button5.BackColor = System.Drawing.Color.Transparent
         Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Bahnschrift", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Font = New System.Drawing.Font("Bahnschrift", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Location = New System.Drawing.Point(498, 78)
+        Me.Button5.Location = New System.Drawing.Point(506, 90)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(437, 63)
-        Me.Button5.TabIndex = 11
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.Button5.Size = New System.Drawing.Size(429, 61)
+        Me.Button5.TabIndex = 15
+        Me.Button5.UseVisualStyleBackColor = True
         Me.Button5.Visible = False
         '
-        'MateriKelas6
+        'Materikls4smstr1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -138,9 +136,9 @@ Partial Class MateriKelas6
         Me.Controls.Add(Me.PictureBox1)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "MateriKelas6"
+        Me.Name = "Materikls4smstr1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Materi Kelas 6"
+        Me.Text = "Materikls4smstr1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WebView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
