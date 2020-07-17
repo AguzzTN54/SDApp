@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2020-07-17T10:49:02">
+<data_materi>
+<id>4</id>
+<grade>4</grade>
+<sub_bab>calender</sub_bab>
+<content>3. 	Cara Menulis dan membaca tanggal
+- British English 	-&gt; Day – Month – Year
+
+| ||Day||Month|Year|
+|------------|------------|------------|------------|------------|------------|
+|You write| |1st||January|2010|
+|You say| the|first|of|january|twenty ten|
+
+
+- American English 	-&gt; Month – Day – Year
+
+| ||Month||Day|Year|
+|------------|------------|------------|------------|------------|------------|
+|You write| |January||1st|2010|
+|You say| the|January|(the)*|first|twenty ten|</content>
+<next_content>0</next_content>
+<prev_content>3</prev_content>
+</data_materi>
+<data_materi>
+<id>5</id>
+<grade>4</grade>
+<sub_bab>greeting</sub_bab>
+<content>Greeting (Kalimat Sapaan)
+--------------
+
+1. Good morning (selamat pagi)
+2. Good afternoon (selamat siang)
+3. Good evening (Selamat sore / malam)
+4. Good night (Selamat malam/tidur (diucapkan hanya ketika akan berpisah dan akan tidur))
+5. Good bye (selamat tinggal)
+6. See you latter (sampai juumpa)
+7. See you tomorrow (sampai besok)
+8. How are you ? (apa kabar?)
+9. hi !  (hai !)
+10. hallo (halo)
+11. Very well, and you ? (sangat baik, kamu?)
+12. How’s it going ? (apa kabar?)
+13. Fine thank’s. and you ? (Baik terima kasih. Dan kamu ?)
+14. How is Mr…. ? (Bagaimana kabarnya tuan…?)
+15. How is Mrs…? (Bagaimana kabarnya Nona …?)
+16. Is Miss … well ? (Apakah nona … baik ?)
+17. I’ll see you tomorrow. (Saya akan temui anda besok)</content>
+<next_content>6</next_content>
+<prev_content>0</prev_content>
+</data_materi>
+<data_materi>
+<id>6</id>
+<grade>4</grade>
+<sub_bab>greeting</sub_bab>
+<content>18. I’ll be seeing you (Sampai jumpa)
+19. How are you going ? (apa kabar?)
+20. How are things ? (apa kabar?)
+21. How’s life ? (apa kabar?)
+22. Very well, thank you. (Sangat baik. Terima kasih)
+23. Fine, thanks. (Baik, terima kasih)
+24. Good, thank (Baik, terima kasih)
+25. OK, Thanks. (Baik, terima kasih)
+26. Not bad, thank. (Lumayan, terim akasih)
+27. Thank you very much (Terima kasih banyak)
+28. Thanks (terimakasih (tidak resmi) )
+29. Don’t forget me (Jangan melupakan saya)
+30. How is the family ? (Bagaimana kabarnya keluarga ?)
+31. How is your mother ? (Bagaimana kabar ibumu ?)
+32. How is your brother ? (Bagaimana kabar saudara lelakimu ?)
+33. How is your sister ? (Bagaimana kabar saudara perempuanmu ?)
+34. How is your father ? (Bagaimana kabar ayahmu ?)
+35. Is your father fine ? (Apakah ayahmu baik-baik saja?)
+36. Thank you so much (Terima kasih banyak)</content>
+<next_content>7</next_content>
+<prev_content>5</prev_content>
+</data_materi>
+<data_materi>
+<id>7</id>
+<grade>4</grade>
+<sub_bab>greeting</sub_bab>
+<content>37. You are welcome( Sama-sama)
+38. Please (Silahkan)
+39. With pleasure (Dengan senang hati)
+40. Good luck ! (Semoga berhasil)
+41. I hope that we will meet again (Saya berharap kita akan bertemu lagi)</content>
+<next_content>0</next_content>
+<prev_content>6</prev_content>
+</data_materi>
+<data_materi>
+<id>8</id>
+<grade>4</grade>
+<sub_bab>things</sub_bab>
+<content>Things at Home (Benda-benda yang ada dirumah)
+--------------
+
+1. 	Ruang Tamu (Living Room)
+
+|||
+|------------|------------|
+| Aquarium | Akuarium |
+| Curtain | Gorden |
+| Lamp | Lampu |
+| Sofa | Sofa |
+| Table | Meja |
+| Television | Televisi |
+| Carpet | Karpet |</content>
+<next_content>9</next_content>
+<prev_content>0</prev_content>
+</data_materi>
+<data_materi>
+<id>9</id>
+<grade>4</grade>
+<sub_bab>things</sub_bab>
+<content>2. Ruang Makan (Dining Room)
+
+|||
+|------------|------------|
+| Plate | Piring |
+| Bowl | Mangkok |
+| Spoon | Sendok |
+| Fork | Garpu |
+| Glass | Gelas |
+| Cup | Cangkir |
+| Tea pot | Teko |</content>
+<next_content>10</next_content>
+<prev_content>8</prev_content>
+</data_materi>
+<data_materi>
+<id>10</id>
+<grade>4</grade>
+<sub_bab>things</sub_bab>
+<content>3. Kamar Tidur (Bed Room)
+
+|||
+|------------|------------|
+| Bed | Tempat tidur |
+| Pillow | Bantal |
+| Blanket | Selimut |
+| Cupboard | Lemari |
+| Mirror | Cermin |
+| Clock | Jam |
+| Night Lamp | Lampu tidur |</content>
+<next_content>11</next_content>
+<prev_content>9</prev_content>
+</data_materi>
+<data_materi>
+<id>11</id>
+<grade>4</grade>
+<sub_bab>things</sub_bab>
+<content>4. Kamar Mandi (Bath Room)
+
+|||
+|------------|------------|
+| Soap | Sabun |
+| Toothpaste | Odol |
+| Toothbrush | Sikat gigi |
+| Towel | Handuk |
+| Shower | Pancuran |
+| Water dipper | Gayung |</content>
+<next_content>12</next_content>
+<prev_content>10</prev_content>
+</data_materi>
+<data_materi>
+<id>12</id>
+<grade>4</grade>
+<sub_bab>things</sub_bab>
+<content>5. Dapur (Kitchen)
+
+|||
+|------------|------------|
+| Gas stove | Kompor gas |
+| Frying pan | Wajan |
+| Spatula | Sudip |
+| Knife	| Pisau |
+| Refrigerator | Kulkas |</content>
+<next_content>13</next_content>
+<prev_content>11</prev_content>
+</data_materi>
+<data_materi>
+<id>13</id>
+<grade>4</grade>
+<sub_bab>things</sub_bab>
+<content>6. Halaman Rumah (Yard)
+
+|||
+|------------|------------|
+| Flower | Bunga |
+| Plant | Tanaman |
+| Plant pot | Pot tanaman |
+| Bench | Bangku |
+| Grass | Rumput |
+| Fence | Pagar |</content>
+<next_content>0</next_content>
+<prev_content>12</prev_content>
+</data_materi>
+<data_materi>
+<id>14</id>
+<grade>4</grade>
+<sub_bab>introducing</sub_bab>
+<content>Introducing Oneself (Memperkenalkan diri)
+--------------
+
+|||
+|------------|------------|
+| Pembuka | Hi, Hello, Hi my friends, hello everybody |
+| Kalimat Perkenalan | Let me introduce myself, i want introduce myself |
+| Nama, umur, TTL, alamat, asal | My name is Tinuk. I am from Tuban, East Java. I was born in Tuban, 22nd Mei 1992. |
+| Info singkat | I have young brother, his name is Kukuh Prayogi. He is a strong and smart boy. |
+| Hobi, kesukaan | My Hobby is reading and writing. I like writing a short story and a poem. I have a special dream. I want to be a writer and publish many books. |
+| Penutup | Thank you for the time. |</content>
+<next_content>0</next_content>
+<prev_content>0</prev_content>
+</data_materi>
+<data_materi>
+<id>15</id>
+<grade>4</grade>
+<sub_bab>food</sub_bab>
+<content>Foods and Drinks (Makanan dan Minuman)
+--------------
+
+1. Makanan
+
+|||
+|------------|------------|
+| Fried Chicken | Ayam Goreng |
+| Fried Rice | Nasi Goreng |
+| Cheese | Keju |
+| Doughnut | Donat |
+| Sausage | Sosis |
+| Chicken Curry | Kare Ayam |
+| Satay | Sate |</content>
+<next_content>16</next_content>
+<prev_content>0</prev_content>
+</data_materi>
+<data_materi>
+<id>16</id>
+<grade>4</grade>
+<sub_bab>food</sub_bab>
+<content>2. Minuman
+
+|||
+|------------|------------|
+| Coffee | Kopi 
+| Tea | The |
+| Ice Cream | Es Krim |
+| Orange Juice | Jus Jeruk |
+| Syrup | Sirup |
+| Water | Air |
+| Milk | Susu |</content>
+<next_content>0</next_content>
+<prev_content>15</prev_content>
+</data_materi>
+<data_materi>
+<id>17</id>
+<grade>4</grade>
+<sub_bab>mathematic</sub_bab>
+<content>Mathematics (Matematika)
+--------------
+
+|||
+|------------|------------|
+| Integer | Bilangan bulat |
+| Natural number | Bilangan asli |
+| Whole number | Bilangan cacah |
+| Even number | Bilangan genap |
+| Odd number | Bilangan ganjil |
+| Addition | Penjumlahan |
+| Substraction | Pengurangan |
+| Division | Pembagian |</content>
+<next_content>18</next_content>
+<prev_content>0</prev_content>
+</data_materi>
+<data_materi>
+<id>18</id>
+<grade>4</grade>
+<sub_bab>mathematic</sub_bab>
+<content>|||
+|------------|------------|
+| Multiplication | Perkalian |
+| Associative principle | Sifat Asosiatif |
+| Decimal | Desimal |
+| Variable | variabel |
+| Linier Equations | Persamaan Linier |</content>
+<next_content>0</next_content>
+<prev_content>17</prev_content>
+</data_materi>
+<data_materi>
+<id>19</id>
+<grade>4</grade>
+<sub_bab>professions</sub_bab>
+<content>Professions (Pekerjaan)
+--------------
+
+|||
+|------------|------------|
+| Ahli Bedah | Surgeon |
+| Ahli Gizi | Nutritionist |
+| Ahli Syaraf | Neurologist |
+| Rekam Medis | Medical Record |
+| Dokter | Doctor |
+| Perawat | Nurse |
+| Aktor/Aktris | Actor/Actress |
+| Akuntan | Accountant |</content>
+<next_content>20</next_content>
+<prev_content>0</prev_content>
+</data_materi>
+<data_materi>
+<id>20</id>
+<grade>4</grade>
+<sub_bab>professions</sub_bab>
+<content>|||
+|------------|------------|
+| Apoteker | Pharmacist |
+| Arsitek | Architect |
+| Bidan | Midwife |
+| Desain Grafis | Graphic Designer |
+| Dokter Gigi | Dentist |
+| Dosen | Lecturer |
+| Guru | Teacher |
+| Ilmuwan | Scientist |
+| Juru Foto | Photographer |
+| Karyawan | Employee |</content>
+<next_content>0</next_content>
+<prev_content>19</prev_content>
+</data_materi>
+<data_materi>
+<id>21</id>
+<grade>4</grade>
+<sub_bab>shape</sub_bab>
+<content>Shape (Bentuk)
+--------------
+
+|||
+|------------|------------|
+| Lonjong | Oval |
+| Segitiga | Triangle |
+| Persegi panjang | Rectangle |
+| Bintang | Star |
+| Heart | Hati |
+| Wajik | Diamond |
+| Bulan | Circle |
+| Segi empat | Square |</content>
+<next_content>22</next_content>
+<prev_content>0</prev_content>
+</data_materi>
+<data_materi>
+<id>22</id>
+<grade>4</grade>
+<sub_bab>shape</sub_bab>
+<content>|||
+|------------|------------|
+| Trapesium	Trapezoid
+| Segitiga siku-siku | Right Triangle |
+| Lempengan | Plaque |
+| Segi lima | Pentagon |
+| Segi enam | Hexagon |
+| Segi tujuh | Heptagon |
+| Segi delapan | Octagon |
+| Segi sepuluh | Decagon |</content>
+<next_content>0</next_content>
+<prev_content>21</prev_content>
+</data_materi>
+<data_materi>
+<id>23</id>
+<grade>4</grade>
+<sub_bab>library</sub_bab>
+<content>Library (Perpustakaan)
+--------------
+
+|||
+|------------|------------|
+| Reader | Pembaca |
+| Librarian | Pustakawan |
+| Book | Buku |
+| Reference Room | Ruang Referensi |
+| Discussion Room | Ruang Diskusi |
+| Guidance Room	| Ruang Bimbingan |
+| Bookshelf | Rak buku |</content>
+<next_content>24</next_content>
+<prev_content>0</prev_content>
+</data_materi>
+<data_materi>
+<id>24</id>
+<grade>4</grade>
+<sub_bab>library</sub_bab>
+<content>
+|||
+|------------|------------|
+| Lockers | Loker |
+| Computer | Komputer |
+| Lending Section | Bagian peminjaman |
+| Returning Section | Bagian pengembalian |
+| Fines Book | Buku denda |
+| Library Card | Kartu Perpustakaan |</content>
+<next_content>0</next_content>
+<prev_content>23</prev_content>
+</data_materi>
+<data_materi>
+<id>25</id>
+<grade>4</grade>
+<sub_bab>weather</sub_bab>
+<content>Weather and Seasons (Cuaca dan Musim)
+--------------
+
+1.	Season (Musim)
+
+|||
+|------------|------------|
+| Musim Kemarau | Dry Season |
+| Musim Hujan | Rainy Season |
+| Musim Semi | Spring |
+| Musim Panas | Summer |
+| Musim Gugur | Autumn |
+| Musim dingin/Salju | Winter |</content>
+<next_content>26</next_content>
+<prev_content>0</prev_content>
+</data_materi>
+<data_materi>
+<id>26</id>
+<grade>4</grade>
+<sub_bab>weather</sub_bab>
+<content>2. Cuaca (Weather)
+
+|||
+|------------|------------|
+| Cerah | Sunny |
+| Berawan | Cloudly |
+| Panas | Hot |
+| Dingin | Cold |
+| Berangin | Windy |
+| Berkabut | Foggy |</content>
+<next_content>0</next_content>
+<prev_content>25</prev_content>
+</data_materi>
+<data_materi>
+<id>1</id>
+<grade>4</grade>
+<sub_bab>calender</sub_bab>
+<content>Calender
+--------------
+1. Nama Bulan (Month)
+
+|  Indonesia |  English |
+|------------|------------|
+|- Januari| January|
+|- Februari|February |
+|- Maret| March|
+|- April |April|
+|- Mei|May|
+|- Juni|June|
+|- Juli|July|</content>
+<next_content>2</next_content>
+<prev_content>0</prev_content>
+</data_materi>
+<data_materi>
+<id>2</id>
+<grade>4</grade>
+<sub_bab>calender</sub_bab>
+<content>|Indonesia  | English |
+|------------|------------|
+|- Agustus|August|
+|- September | September|
+|- Oktober| October|
+|- November| November|
+|- Desember|December|
+
+2.	Cara Membaca Tahun
+Dalam membaca tahun, biasanya kita memisahkan tahun dalam puluhan.
+- 	1985 is split up in 19 and 85. (You say: nineteen eighty-five). 
+Dari 2000 sampai 2009 tahunnya tidak dipisahkan. 
+- 	2000 = two thousand
+- 	2001 = two thousand (and) one
+
+Dalam pengucapan dan penulisan tahun kata and sering ditinggalkan. Kemudian dari 2010 dalam tahun dipisahkan kembali.</content>
+<next_content>3</next_content>
+<prev_content>1</prev_content>
+</data_materi>
+<data_materi>
+<id>3</id>
+<grade>4</grade>
+<sub_bab>calender</sub_bab>
+<content>##### Bagaimana membaca tahun dalam bahasa Inggris?
+
+|You Write  |You Say |
+|------------|------------|
+|1900| Nineteen hundred|
+|1901| Nineteen hundred (and) one|
+|1995| Nineteen ninety-five|
+|2000| Two thousand,twenty hundred|
+|2002| Two thousand (and) two,twenty oh-two|
+|2010| Two thousand (and) ten,twenty ten|</content>
+<next_content>4</next_content>
+<prev_content>2</prev_content>
+</data_materi>
+</dataroot>

@@ -1,4 +1,4 @@
-﻿Public Class MainKelas6
+﻿Public Class Kelas5Semester1
     Private Sub MainKelas6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         With Button1
             .Parent = PictureBox1

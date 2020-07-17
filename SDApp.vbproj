@@ -111,6 +111,30 @@
     <Compile Include="Forms\Classes\Kelas4\MainKelas4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Classes\Kelas4\Semester1\Materikls4smstr1.Designer.vb">
+      <DependentUpon>Materikls4smstr1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas4\Semester1\Materikls4smstr1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas4\Semester1\Kls4smstr1.Designer.vb">
+      <DependentUpon>Kls4smstr1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas4\Semester1\Kls4smstr1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas4\Semester2\Kls4smstr2.Designer.vb">
+      <DependentUpon>Kls4smstr2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas4\Semester2\Kls4smstr2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas4\Semester2\Materikls4smstr2.Designer.vb">
+      <DependentUpon>Materikls4smstr2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas4\Semester2\Materikls4smstr2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Classes\Kelas5\MainKelas5.Designer.vb">
       <DependentUpon>MainKelas5.vb</DependentUpon>
     </Compile>
@@ -215,6 +239,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas4\MainKelas4.resx">
       <DependentUpon>MainKelas4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas4\Semester1\Materikls4smstr1.resx">
+      <DependentUpon>Materikls4smstr1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas4\Semester1\Kls4smstr1.resx">
+      <DependentUpon>Kls4smstr1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas4\Semester2\Kls4smstr2.resx">
+      <DependentUpon>Kls4smstr2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas4\Semester2\Materikls4smstr2.resx">
+      <DependentUpon>Materikls4smstr2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas5\MainKelas5.resx">
       <DependentUpon>MainKelas5.vb</DependentUpon>
