@@ -41,9 +41,10 @@ Partial Class PilihKelas
         Me.Button7.BackgroundImage = CType(resources.GetObject("Button7.BackgroundImage"), System.Drawing.Image)
         Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button7.Location = New System.Drawing.Point(889, 535)
+        Me.Button7.Location = New System.Drawing.Point(1185, 658)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(61, 58)
+        Me.Button7.Size = New System.Drawing.Size(81, 71)
         Me.Button7.TabIndex = 10
         Me.Button7.UseVisualStyleBackColor = True
         '
@@ -52,9 +53,10 @@ Partial Class PilihKelas
         Me.Button8.BackgroundImage = CType(resources.GetObject("Button8.BackgroundImage"), System.Drawing.Image)
         Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button8.Location = New System.Drawing.Point(804, 535)
+        Me.Button8.Location = New System.Drawing.Point(1072, 658)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(61, 58)
+        Me.Button8.Size = New System.Drawing.Size(81, 71)
         Me.Button8.TabIndex = 9
         Me.Button8.UseVisualStyleBackColor = True
         '
@@ -63,9 +65,10 @@ Partial Class PilihKelas
         Me.Button6.BackgroundImage = CType(resources.GetObject("Button6.BackgroundImage"), System.Drawing.Image)
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button6.Location = New System.Drawing.Point(635, 364)
+        Me.Button6.Location = New System.Drawing.Point(847, 448)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(124, 122)
+        Me.Button6.Size = New System.Drawing.Size(165, 150)
         Me.Button6.TabIndex = 8
         Me.Button6.UseVisualStyleBackColor = True
         '
@@ -74,9 +77,10 @@ Partial Class PilihKelas
         Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button5.Location = New System.Drawing.Point(439, 364)
+        Me.Button5.Location = New System.Drawing.Point(585, 448)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(124, 122)
+        Me.Button5.Size = New System.Drawing.Size(165, 150)
         Me.Button5.TabIndex = 7
         Me.Button5.UseVisualStyleBackColor = True
         '
@@ -85,9 +89,10 @@ Partial Class PilihKelas
         Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button4.Location = New System.Drawing.Point(239, 364)
+        Me.Button4.Location = New System.Drawing.Point(319, 448)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(124, 122)
+        Me.Button4.Size = New System.Drawing.Size(165, 150)
         Me.Button4.TabIndex = 6
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -96,9 +101,10 @@ Partial Class PilihKelas
         Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.Location = New System.Drawing.Point(635, 218)
+        Me.Button3.Location = New System.Drawing.Point(847, 268)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(124, 122)
+        Me.Button3.Size = New System.Drawing.Size(165, 150)
         Me.Button3.TabIndex = 5
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -107,9 +113,10 @@ Partial Class PilihKelas
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Location = New System.Drawing.Point(439, 218)
+        Me.Button2.Location = New System.Drawing.Point(585, 268)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(124, 122)
+        Me.Button2.Size = New System.Drawing.Size(165, 150)
         Me.Button2.TabIndex = 4
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -118,9 +125,10 @@ Partial Class PilihKelas
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.Location = New System.Drawing.Point(239, 218)
+        Me.Button1.Location = New System.Drawing.Point(319, 268)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(124, 122)
+        Me.Button1.Size = New System.Drawing.Size(165, 150)
         Me.Button1.TabIndex = 3
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -130,8 +138,9 @@ Partial Class PilihKelas
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(984, 621)
+        Me.PictureBox1.Size = New System.Drawing.Size(1312, 764)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -140,19 +149,20 @@ Partial Class PilihKelas
         '
         Me.nama.Enabled = False
         Me.nama.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nama.Location = New System.Drawing.Point(418, 525)
+        Me.nama.Location = New System.Drawing.Point(557, 646)
+        Me.nama.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.nama.Name = "nama"
-        Me.nama.Size = New System.Drawing.Size(160, 56)
+        Me.nama.Size = New System.Drawing.Size(213, 69)
         Me.nama.TabIndex = 11
         Me.nama.Text = "NAMA"
         Me.nama.UseVisualStyleBackColor = True
         '
         'PilihKelas
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(984, 621)
+        Me.ClientSize = New System.Drawing.Size(1312, 764)
         Me.Controls.Add(Me.nama)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button8)
@@ -164,6 +174,7 @@ Partial Class PilihKelas
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "PilihKelas"

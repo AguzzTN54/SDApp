@@ -1,5 +1,4 @@
-﻿Public Class MateriKelas6
-
+﻿Public Class Materikls4smstr1
     Function ambilMateri(ByVal id)
         Call KoneksiDB()
         cmd = New OleDb.OleDbCommand("select * from data_materi where id=" & id & "", conn)
@@ -15,7 +14,6 @@
             Dim prev = dr.GetValue(5)
 
             If prev Then
-
                 Button2.Visible = True
                 Button2.Tag = prev
             Else
@@ -23,7 +21,6 @@
             End If
 
             If lanjut Then
-
                 Button1.Visible = True
                 Button1.Tag = lanjut
             Else
@@ -36,7 +33,8 @@
             MsgBox("Belum Ada materi")
         End If
     End Function
-    Private Sub FormMateri_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Materikls4smstr1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         With Button3
             .Parent = PictureBox1
             .FlatStyle = Windows.Forms.FlatStyle.Flat
@@ -54,6 +52,7 @@
             .FlatAppearance.MouseOverBackColor = Color.Transparent
             .BackColor = Color.Transparent
         End With
+
         With Button5
             .Parent = PictureBox1
             .FlatStyle = Windows.Forms.FlatStyle.Flat
@@ -62,8 +61,9 @@
             .FlatAppearance.MouseOverBackColor = Color.Transparent
             .BackColor = Color.Transparent
         End With
+
         Call KoneksiDB()
-        cmd = New OleDb.OleDbCommand("Select min(id) from data_materi where grade=6 and sub_bab='" & Button5.Tag & "'", conn)
+        cmd = New OleDb.OleDbCommand("Select min(id) from data_materi where grade=4 and sub_bab='" & Button5.Tag & "'", conn)
         dr = cmd.ExecuteReader
         dr.Read()
 
@@ -81,13 +81,10 @@
         ambilMateri(Button2.Tag)
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-
-    End Sub
-
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Me.Hide()
-        Kelas5Semester1.Show()
+        Kls4smstr1.Show()
+
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
