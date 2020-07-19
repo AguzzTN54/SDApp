@@ -105,6 +105,18 @@
     <Compile Include="Forms\Classes\Kelas1\Alphabets\Alphabets.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Classes\Kelas2\MainKelas2.Designer.vb">
+      <DependentUpon>MainKelas2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas2\MainKelas2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas2\MateriKelas2.Designer.vb">
+      <DependentUpon>MateriKelas2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas2\MateriKelas2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Classes\Kelas4\MainKelas4.Designer.vb">
       <DependentUpon>MainKelas4.vb</DependentUpon>
     </Compile>
@@ -212,6 +224,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Forms\Classes\Kelas1\Alphabets\Alphabets.resx">
       <DependentUpon>Alphabets.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas2\MainKelas2.resx">
+      <DependentUpon>MainKelas2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas2\MateriKelas2.resx">
+      <DependentUpon>MateriKelas2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas4\MainKelas4.resx">
       <DependentUpon>MainKelas4.vb</DependentUpon>

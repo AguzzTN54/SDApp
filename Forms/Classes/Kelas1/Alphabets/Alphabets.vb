@@ -8,7 +8,7 @@
     End Function
 
     Private Sub Alphabets_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim Alpha() As String = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "a", "t", "u", "v", "u", "x", "y", "z"}
+        Dim Alpha() As String = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "u", "x", "y", "z"}
         Dim buttonIndex As Integer = 0
         Dim noOfButtonPerline As Integer = 7
         Dim y As Integer = 0
