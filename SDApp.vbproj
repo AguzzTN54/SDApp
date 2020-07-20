@@ -108,6 +108,36 @@
     <Compile Include="Forms\Classes\Kelas1\Alphabets\Alphabets.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Classes\Kelas3\MainKelas3.Designer.vb">
+      <DependentUpon>MainKelas3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas3\MainKelas3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas3\Semester1\Kls3smstr1.Designer.vb">
+      <DependentUpon>Kls3smstr1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas3\Semester1\Kls3smstr1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas3\Semester1\Materikls3smstr1.Designer.vb">
+      <DependentUpon>Materikls3smstr1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas3\Semester1\Materikls3smstr1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas3\Semester2\Kls3smstr2.Designer.vb">
+      <DependentUpon>Kls3smstr2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas3\Semester2\Kls3smstr2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas3\Semester2\Materikls3smstr2.Designer.vb">
+      <DependentUpon>Materikls3smstr2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas3\Semester2\Materikls3smstr2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Classes\Kelas2\MainKelas2.Designer.vb">
       <DependentUpon>MainKelas2.vb</DependentUpon>
     </Compile>
@@ -154,6 +184,30 @@
       <DependentUpon>MainKelas5.vb</DependentUpon>
     </Compile>
     <Compile Include="Forms\Classes\Kelas5\MainKelas5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas5\Semester1\Kls5smstr1.Designer.vb">
+      <DependentUpon>Kls5smstr1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas5\Semester1\Kls5smstr1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas5\Semester1\Materikls5smstr1.Designer.vb">
+      <DependentUpon>Materikls5smstr1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas5\Semester1\Materikls5smstr1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas5\Semester2\Kls5smstr2.Designer.vb">
+      <DependentUpon>Kls5smstr2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas5\Semester2\Kls5smstr2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas5\Semester2\Materikls5smstr2.Designer.vb">
+      <DependentUpon>Materikls5smstr2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas5\Semester2\Materikls5smstr2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Classes\Kelas6\MainKelas6.Designer.vb">
@@ -251,6 +305,21 @@
   <ItemGroup>
     <EmbeddedResource Include="Forms\Classes\Kelas1\Alphabets\Alphabets.resx">
       <DependentUpon>Alphabets.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas3\MainKelas3.resx">
+      <DependentUpon>MainKelas3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas3\Semester1\Kls3smstr1.resx">
+      <DependentUpon>Kls3smstr1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas3\Semester1\Materikls3smstr1.resx">
+      <DependentUpon>Materikls3smstr1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas3\Semester2\Kls3smstr2.resx">
+      <DependentUpon>Kls3smstr2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas3\Semester2\Materikls3smstr2.resx">
+      <DependentUpon>Materikls3smstr2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas2\MainKelas2.resx">
       <DependentUpon>MainKelas2.vb</DependentUpon>
