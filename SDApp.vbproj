@@ -136,6 +136,8 @@
       <DependentUpon>Materikls3smstr2.vb</DependentUpon>
     </Compile>
     <Compile Include="Forms\Classes\Kelas3\Semester2\Materikls3smstr2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Classes\Kelas2\MainKelas2.Designer.vb">
       <DependentUpon>MainKelas2.vb</DependentUpon>
     </Compile>
@@ -318,6 +320,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas3\Semester2\Materikls3smstr2.resx">
       <DependentUpon>Materikls3smstr2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas2\MainKelas2.resx">
       <DependentUpon>MainKelas2.vb</DependentUpon>
     </EmbeddedResource>
