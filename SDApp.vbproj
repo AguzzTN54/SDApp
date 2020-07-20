@@ -20,6 +20,9 @@
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SDApp.ico</ApplicationIcon>
+  </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -133,6 +136,16 @@
       <DependentUpon>Materikls3smstr2.vb</DependentUpon>
     </Compile>
     <Compile Include="Forms\Classes\Kelas3\Semester2\Materikls3smstr2.vb">
+    <Compile Include="Forms\Classes\Kelas2\MainKelas2.Designer.vb">
+      <DependentUpon>MainKelas2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas2\MainKelas2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas2\MateriKelas2.Designer.vb">
+      <DependentUpon>MateriKelas2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas2\MateriKelas2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Classes\Kelas4\MainKelas4.Designer.vb">
@@ -305,6 +318,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas3\Semester2\Materikls3smstr2.resx">
       <DependentUpon>Materikls3smstr2.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\Classes\Kelas2\MainKelas2.resx">
+      <DependentUpon>MainKelas2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas2\MateriKelas2.resx">
+      <DependentUpon>MateriKelas2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas4\MainKelas4.resx">
       <DependentUpon>MainKelas4.vb</DependentUpon>
@@ -378,7 +396,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="Resources\database\SDApp.ldb" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Assets\Buttons\back.png" />
@@ -488,12 +505,10 @@
     <Content Include="Resources\Assets\Start\login.jpg" />
     <Content Include="Resources\ContentReader\Markdig.dll" />
     <Content Include="Resources\ContentReader\Microsoft.Toolkit.Forms.UI.Controls.WebView.dll" />
-    <Content Include="Resources\database\SDApp.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Resources\database\SDApp.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="SDApp.ico" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Forms\Classes\Kelas1\Warna\" />
