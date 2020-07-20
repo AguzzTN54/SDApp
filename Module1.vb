@@ -9,7 +9,7 @@ Module Module1
     Sub KoneksiDB()
         Try
             'conn = New OleDbConnection("provider=microsoft.jet.oledb.4.0; data source=SDApp.accdb")
-            conn = New OleDbConnection("provider=microsoft.jet.oledb.4.0; data source=../../Resources/database/kelas4.mdb")
+            conn = New OleDbConnection("provider=microsoft.jet.oledb.4.0; data source=../../Resources/database/kelas3.mdb")
             'conn = New OleDbConnection("provider=Microsoft.ACE.OLEDB.12.0; data source=../../Resources/database/kelas4.mdb")
 
             conn.Open()
