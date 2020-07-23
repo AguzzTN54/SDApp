@@ -345,6 +345,12 @@
     <EmbeddedResource Include="Forms\Classes\Kelas5\MainKelas5.resx">
       <DependentUpon>MainKelas5.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas5\Semester1\Kls5smstr1.resx">
+      <DependentUpon>Kls5smstr1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas5\Semester2\Kls5smstr2.resx">
+      <DependentUpon>Kls5smstr2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas6\MainKelas6.resx">
       <DependentUpon>MainKelas6.vb</DependentUpon>
     </EmbeddedResource>
