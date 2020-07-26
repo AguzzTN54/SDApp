@@ -147,9 +147,10 @@ Partial Class MateriKelas2
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.WebView1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.DoubleBuffered = True
         Me.Name = "MateriKelas2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "MateriKelas2"
+        Me.Text = "Kelas 2"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WebView1, System.ComponentModel.ISupportInitialize).EndInit()

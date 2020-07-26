@@ -234,12 +234,6 @@
     <Compile Include="Forms\Classes\Kelas6\MateriKelas6.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Classes\Kelas7\MainKelas7.Designer.vb">
-      <DependentUpon>MainKelas7.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Classes\Kelas7\MainKelas7.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Forms\Start\Start.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -348,8 +342,14 @@
     <EmbeddedResource Include="Forms\Classes\Kelas5\Semester1\Kls5smstr1.resx">
       <DependentUpon>Kls5smstr1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas5\Semester1\Materikls5smstr1.resx">
+      <DependentUpon>Materikls5smstr1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas5\Semester2\Kls5smstr2.resx">
       <DependentUpon>Kls5smstr2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas5\Semester2\Materikls5smstr2.resx">
+      <DependentUpon>Materikls5smstr2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas6\MainKelas6.resx">
       <DependentUpon>MainKelas6.vb</DependentUpon>
@@ -362,9 +362,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas6\MateriKelas6.resx">
       <DependentUpon>MateriKelas6.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Classes\Kelas7\MainKelas7.resx">
-      <DependentUpon>MainKelas7.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Start\Start.resx">
       <DependentUpon>Start.vb</DependentUpon>
@@ -409,6 +406,7 @@
   <ItemGroup>
     <Content Include="Resources\Assets\Buttons\back.png" />
     <Content Include="Resources\Assets\Buttons\home.png" />
+    <Content Include="Resources\Assets\Buttons\next.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\abjad.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\a.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Alphabets\b.png" />
@@ -439,8 +437,9 @@
     <Content Include="Resources\Assets\Classes\Kelas1\angka.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\form abjad.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\form kelas1.jpg" />
-    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\10.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\kelas1.jpg" />
     <Content Include="Resources\Assets\Classes\Kelas1\Numbers\1.png" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Numbers\10.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Numbers\2.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Numbers\3.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\Numbers\4.png" />
@@ -452,8 +451,6 @@
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\1.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\10.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\2.wav" />
-    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\3.wav" />
-    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\4.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\5.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\6.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\7.wav" />
@@ -469,6 +466,7 @@
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\h.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\i.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\j.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\k.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\l.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\m.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\n.wav" />
@@ -479,6 +477,7 @@
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\s.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\t.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\u.wav" />
+    <Content Include="Resources\Assets\Classes\Kelas1\Speechs\v.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\w.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\x.wav" />
     <Content Include="Resources\Assets\Classes\Kelas1\Speechs\y.wav" />
@@ -486,8 +485,56 @@
     <Content Include="Resources\Assets\Classes\Kelas1\tombol abjad.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\tombol suara.png" />
     <Content Include="Resources\Assets\Classes\Kelas1\warna.png" />
+    <Content Include="Resources\Assets\Classes\Kelas2\fooddrink isi.png" />
+    <Content Include="Resources\Assets\Classes\Kelas2\FOODDRINK.png" />
+    <Content Include="Resources\Assets\Classes\Kelas2\form fooddrink.png" />
+    <Content Include="Resources\Assets\Classes\Kelas2\FORM HOBBY.png" />
+    <Content Include="Resources\Assets\Classes\Kelas2\FORM KELAS 2.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas2\FORM TELLING TIME.png" />
+    <Content Include="Resources\Assets\Classes\Kelas2\hobby isi.png" />
+    <Content Include="Resources\Assets\Classes\Kelas2\HOBBY.png" />
+    <Content Include="Resources\Assets\Classes\Kelas2\TELLING TIME.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\animal.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\bgkls4smstr2.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\bgmaterikls4ke1.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\calender.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\clothes.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\food&amp;drink.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\gaebuttonmateri.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\greeting.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\introducing.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Kelas4smstr1.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Kelas4smstr2.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\kls4smstr1.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\kls4smstr2.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\library.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\mainkelas3.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\mainkelas4.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\matema.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Materikls4smster2.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Materikls4smstr1.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\ourbody.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\park.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Park\park.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Park\park1.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Park\park2.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Park\park3.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Park\park4.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Park\park5.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Park\park6.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Park\park7.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Park\park71.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Park\park8.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Park\park9.jpg" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\profesi.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\shape.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\smstr2.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\thingsinthehouse.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\Vegetables.png" />
+    <Content Include="Resources\Assets\Classes\Kelas3-4\weather.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\atthepark.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\background.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\bgmaterikls6.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\command.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\Describing.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\direction.png" />
@@ -498,22 +545,36 @@
     <Content Include="Resources\Assets\Classes\Kelas5-6\gevornment.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\Health.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\holiday.png" />
-    <Content Include="Resources\Assets\Classes\Kelas5-6\Home-page-kelas-5-smt-1.png" />
-    <Content Include="Resources\Assets\Classes\Kelas5-6\Home-page-kelas-5-smt-2.png" />
-    <Content Include="Resources\Assets\Classes\Kelas5-6\Home-page-kelas-5.png" />
-    <Content Include="Resources\Assets\Classes\Kelas5-6\Home-page-kelas-6.png" />
+    <Content Include="Resources\Assets\Classes\Kelas5-6\judulmateri.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\owner.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\shopping.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\smt-1.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\smt-2.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\tourism.png" />
     <Content Include="Resources\Assets\Classes\Kelas5-6\transparan.png" />
+    <Content Include="Resources\Assets\logo.ico" />
+    <Content Include="Resources\Assets\PilihKelas\kls1.png" />
+    <Content Include="Resources\Assets\PilihKelas\kls2.png" />
+    <Content Include="Resources\Assets\PilihKelas\kls3.png" />
+    <Content Include="Resources\Assets\PilihKelas\kls4.png" />
+    <Content Include="Resources\Assets\PilihKelas\kls5.png" />
+    <Content Include="Resources\Assets\PilihKelas\kls6.png" />
     <Content Include="Resources\Assets\PilihKelas\pilih-kelas.jpg" />
+    <Content Include="Resources\Assets\SDApp.ico" />
     <Content Include="Resources\Assets\Start\awal.jpg" />
     <Content Include="Resources\Assets\Start\daftar.jpg" />
     <Content Include="Resources\Assets\Start\login.jpg" />
     <Content Include="Resources\ContentReader\Markdig.dll" />
     <Content Include="Resources\ContentReader\Microsoft.Toolkit.Forms.UI.Controls.WebView.dll" />
+    <Content Include="Resources\database\kelas3.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\database\kelas4.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\database\kelas6.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\database\SDApp.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

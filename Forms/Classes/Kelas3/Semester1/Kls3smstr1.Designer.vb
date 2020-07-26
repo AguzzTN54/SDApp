@@ -105,7 +105,7 @@ Partial Class Kls3smstr1
         Me.MinimizeBox = False
         Me.Name = "Kls3smstr1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Kls3smstr1"
+        Me.Text = "Kelas 3 - Semester 1"
         Me.ResumeLayout(False)
 
     End Sub

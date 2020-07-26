@@ -138,7 +138,7 @@ Partial Class Materikls4smstr1
         Me.MinimizeBox = False
         Me.Name = "Materikls4smstr1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Materikls4smstr1"
+        Me.Text = "Kelas 4 - Semester 1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WebView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

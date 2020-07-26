@@ -22,9 +22,16 @@ Partial Class Materikls5smstr1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'Materikls5smstr1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Materikls5smstr1"
+        Me.Name = "Materikls5smstr1"
+        Me.Text = "Kelas 5 - Semester 1"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class

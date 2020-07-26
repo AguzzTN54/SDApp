@@ -147,7 +147,7 @@ Partial Class MainKelas2
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "MainKelas2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "MainKelas2"
+        Me.Text = "Kelas 2"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -147,7 +147,7 @@ Partial Class Kls4smstr2
         Me.MinimizeBox = False
         Me.Name = "Kls4smstr2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Semester2Kelas4"
+        Me.Text = "Kelas 4 - Semester 2"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

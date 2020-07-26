@@ -143,7 +143,7 @@ Partial Class Kelas5Semester1
         Me.Button8.TabIndex = 8
         Me.Button8.UseVisualStyleBackColor = False
         '
-        'MainKelas6
+        'Kelas5Semester1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -159,9 +159,9 @@ Partial Class Kelas5Semester1
         Me.Controls.Add(Me.PictureBox1)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "MainKelas6"
+        Me.Name = "Kelas5Semester1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "MainKelas6"
+        Me.Text = "Kelas 6"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
