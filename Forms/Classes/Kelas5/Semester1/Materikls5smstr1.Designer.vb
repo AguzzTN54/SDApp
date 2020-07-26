@@ -41,7 +41,7 @@ Partial Class Materikls5smstr1
         Me.Button5.Font = New System.Drawing.Font("Bahnschrift", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Location = New System.Drawing.Point(675, 111)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(572, 75)
         Me.Button5.TabIndex = 22
@@ -55,7 +55,7 @@ Partial Class Materikls5smstr1
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button3.Location = New System.Drawing.Point(1052, 679)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(88, 79)
         Me.Button3.TabIndex = 21
@@ -69,7 +69,7 @@ Partial Class Materikls5smstr1
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button4.Location = New System.Drawing.Point(1144, 679)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(88, 79)
         Me.Button4.TabIndex = 20
@@ -84,7 +84,7 @@ Partial Class Materikls5smstr1
         Me.Button2.Font = New System.Drawing.Font("Bahnschrift", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(559, 679)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(100, 32)
         Me.Button2.TabIndex = 19
@@ -100,7 +100,7 @@ Partial Class Materikls5smstr1
         Me.Button1.Font = New System.Drawing.Font("Bahnschrift", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(667, 679)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 32)
         Me.Button1.TabIndex = 18
@@ -111,18 +111,18 @@ Partial Class Materikls5smstr1
         'WebView1
         '
         Me.WebView1.Location = New System.Drawing.Point(59, 191)
-        Me.WebView1.Margin = New System.Windows.Forms.Padding(4)
+        Me.WebView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.WebView1.MinimumSize = New System.Drawing.Size(27, 25)
         Me.WebView1.Name = "WebView1"
         Me.WebView1.Size = New System.Drawing.Size(1195, 481)
-        Me.WebView1.TabIndex = 17
+        Me.WebView1.TabIndex = 1
         '
         'PictureBox1
         '
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(1312, 764)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -141,7 +141,9 @@ Partial Class Materikls5smstr1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.WebView1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Materikls5smstr1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Kelas 5 - Semester 1"
         CType(Me.WebView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

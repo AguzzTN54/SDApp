@@ -38,7 +38,7 @@ Partial Class Kls5smstr1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(-2, -2)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(985, 623)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -52,7 +52,7 @@ Partial Class Kls5smstr1
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.Location = New System.Drawing.Point(115, 243)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(121, 158)
         Me.Button1.TabIndex = 1
@@ -65,7 +65,7 @@ Partial Class Kls5smstr1
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.Location = New System.Drawing.Point(272, 243)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(118, 158)
         Me.Button2.TabIndex = 2
@@ -78,7 +78,7 @@ Partial Class Kls5smstr1
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button3.Location = New System.Drawing.Point(426, 250)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(110, 158)
         Me.Button3.TabIndex = 3
@@ -90,7 +90,7 @@ Partial Class Kls5smstr1
         Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button4.Location = New System.Drawing.Point(568, 250)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(122, 158)
         Me.Button4.TabIndex = 4
@@ -102,7 +102,7 @@ Partial Class Kls5smstr1
         Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button5.Location = New System.Drawing.Point(750, 250)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(124, 158)
         Me.Button5.TabIndex = 5
@@ -115,7 +115,7 @@ Partial Class Kls5smstr1
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button6.Location = New System.Drawing.Point(750, 526)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(2)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(71, 66)
         Me.Button6.TabIndex = 6
@@ -128,7 +128,7 @@ Partial Class Kls5smstr1
         Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button7.Location = New System.Drawing.Point(841, 526)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(2)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(71, 66)
         Me.Button7.TabIndex = 7
@@ -147,7 +147,7 @@ Partial Class Kls5smstr1
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Kls5smstr1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Kelas 5 - Semester 1"

@@ -39,18 +39,20 @@ Partial Class Materikls4smstr1
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(984, 621)
+        Me.PictureBox1.Size = New System.Drawing.Size(1312, 764)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'WebView1
         '
-        Me.WebView1.Location = New System.Drawing.Point(44, 155)
-        Me.WebView1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebView1.Location = New System.Drawing.Point(59, 191)
+        Me.WebView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.WebView1.MinimumSize = New System.Drawing.Size(27, 25)
         Me.WebView1.Name = "WebView1"
-        Me.WebView1.Size = New System.Drawing.Size(896, 391)
+        Me.WebView1.Size = New System.Drawing.Size(1195, 481)
         Me.WebView1.TabIndex = 1
         '
         'Button1
@@ -60,9 +62,10 @@ Partial Class Materikls4smstr1
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Bahnschrift", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(500, 552)
+        Me.Button1.Location = New System.Drawing.Point(667, 679)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 26)
+        Me.Button1.Size = New System.Drawing.Size(100, 32)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Next"
         Me.Button1.UseVisualStyleBackColor = False
@@ -75,9 +78,10 @@ Partial Class Materikls4smstr1
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Bahnschrift", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(419, 552)
+        Me.Button2.Location = New System.Drawing.Point(559, 679)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 26)
+        Me.Button2.Size = New System.Drawing.Size(100, 32)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "Back"
         Me.Button2.UseVisualStyleBackColor = False
@@ -89,9 +93,10 @@ Partial Class Materikls4smstr1
         Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.Location = New System.Drawing.Point(789, 552)
+        Me.Button3.Location = New System.Drawing.Point(1052, 679)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(66, 64)
+        Me.Button3.Size = New System.Drawing.Size(88, 79)
         Me.Button3.TabIndex = 14
         Me.Button3.UseVisualStyleBackColor = False
         Me.Button3.Visible = False
@@ -102,9 +107,10 @@ Partial Class Materikls4smstr1
         Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button4.Location = New System.Drawing.Point(858, 552)
+        Me.Button4.Location = New System.Drawing.Point(1144, 679)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(66, 64)
+        Me.Button4.Size = New System.Drawing.Size(88, 79)
         Me.Button4.TabIndex = 13
         Me.Button4.UseVisualStyleBackColor = False
         Me.Button4.Visible = False
@@ -115,18 +121,19 @@ Partial Class Materikls4smstr1
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button5.Font = New System.Drawing.Font("Bahnschrift", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Location = New System.Drawing.Point(506, 90)
+        Me.Button5.Location = New System.Drawing.Point(675, 111)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(429, 61)
+        Me.Button5.Size = New System.Drawing.Size(572, 75)
         Me.Button5.TabIndex = 15
         Me.Button5.UseVisualStyleBackColor = True
         Me.Button5.Visible = False
         '
         'Materikls4smstr1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(984, 621)
+        Me.ClientSize = New System.Drawing.Size(1312, 764)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button4)
@@ -134,6 +141,7 @@ Partial Class Materikls4smstr1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.WebView1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Materikls4smstr1"

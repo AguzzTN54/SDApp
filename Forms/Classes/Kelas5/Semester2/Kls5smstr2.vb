@@ -73,4 +73,44 @@
         Me.Hide()
         PilihKelas.Show()
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim kls5 As New Materikls5smstr2
+        kls5.Button5.Tag = "GOVERNMENT"
+        kls5.Button5.Text = "GOVERNMENT"
+        Me.Hide()
+        kls5.Show()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim kls5 As New Materikls5smstr2
+        kls5.Button5.Tag = "COMMAND AND REQUEST"
+        kls5.Button5.Text = "COMMAND AND REQUEST"
+        Me.Hide()
+        kls5.Show()
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim kls5 As New Materikls5smstr2
+        kls5.Button5.Tag = "HEALTH AND HOSPITAL"
+        kls5.Button5.Text = "HEALTH AND HOSPITAL"
+        Me.Hide()
+        kls5.Show()
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Dim kls5 As New Materikls5smstr2
+        kls5.Button5.Tag = "EARTH AND PLANETS"
+        kls5.Button5.Text = "EARTH AND PLANETS"
+        Me.Hide()
+        kls5.Show()
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Dim kls5 As New Materikls5smstr2
+        kls5.Button5.Tag = "EXPRESSING FEELINGS"
+        kls5.Button5.Text = "EXPRESSING FEELINGS"
+        Me.Hide()
+        kls5.Show()
+    End Sub
 End Class
