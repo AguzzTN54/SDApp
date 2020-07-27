@@ -43,6 +43,13 @@
             Dim id = dr.GetValue(0)
             ambilMateri(id)
         End If
+
+        Dim type = Button3.Tag
+        If type = "foods" Then
+            PictureBox2.Image = My.Resources.food_thumb
+        ElseIf type = "hobby" Then
+            PictureBox2.Image = My.Resources.hobby_thumb
+        End If
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

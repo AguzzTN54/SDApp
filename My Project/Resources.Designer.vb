@@ -349,6 +349,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property food_thumb() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("food_thumb", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property g() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("g", resourceCulture)
@@ -381,6 +391,16 @@ Namespace My.Resources
         Friend ReadOnly Property h1() As System.IO.UnmanagedMemoryStream
             Get
                 Return ResourceManager.GetStream("h1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property hobby_thumb() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("hobby_thumb", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         

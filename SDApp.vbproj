@@ -14,7 +14,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>SDApp.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -474,6 +477,8 @@
     <None Include="Resources\Assets\Classes\Kelas1\Speechs\x.wav" />
     <None Include="Resources\Assets\Classes\Kelas1\Speechs\y.wav" />
     <None Include="Resources\Assets\Classes\Kelas1\Speechs\z.wav" />
+    <None Include="Resources\Assets\Classes\Kelas2\hobby-thumb.png" />
+    <None Include="Resources\Assets\Classes\Kelas2\food-thumb.png" />
     <Content Include="Resources\database\SDApp.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
