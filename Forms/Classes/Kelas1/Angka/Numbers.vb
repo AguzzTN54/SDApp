@@ -30,7 +30,8 @@
                 .FlatAppearance.BorderColor = Color.DeepPink
                 .BackColor = Color.White
                 .Tag = value
-                .BackgroundImage = System.Drawing.Bitmap.FromFile("../../Resources/Assets/Classes/Kelas1/Numbers/" & value & ".png")
+                '.BackgroundImage = System.Drawing.Bitmap.FromFile("../../Resources/Assets/Classes/Kelas1/Numbers/" & value & ".png")
+                .BackgroundImage = My.Resources.ResourceManager.GetObject("_" & value)
                 .BackgroundImageLayout = ImageLayout.Zoom
             End With
 

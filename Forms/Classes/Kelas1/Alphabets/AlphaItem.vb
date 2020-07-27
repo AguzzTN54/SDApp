@@ -33,7 +33,7 @@
         Alpha = getAlpha.Text
 
         With showAbjad
-            .BackgroundImage = Image.FromFile("../../Resources/Assets/Classes/Kelas1/Alphabets/" & Alpha & ".png")
+            .BackgroundImage = My.Resources.ResourceManager.GetObject(Alpha)
         End With
     End Sub
 
@@ -50,7 +50,8 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim Alpha As String
         Alpha = getAlpha.Text
-        My.Computer.Audio.Play("../../Resources/Assets/Classes/Kelas1/Speechs/" & Alpha & ".wav")
+        'My.Computer.Audio.Play("../../Resources/Assets/Classes/Kelas1/Speechs/" & Alpha & ".wav")
+        My.Computer.Audio.Play(My.Resources.ResourceManager.GetObject(Alpha & "1"), AudioPlayMode.Background)
     End Sub
 
 End Class

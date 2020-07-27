@@ -28,6 +28,8 @@ Partial Class Kls3smstr1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button4
@@ -88,6 +90,17 @@ Partial Class Kls3smstr1
         Me.Button6.TabIndex = 18
         Me.Button6.UseVisualStyleBackColor = False
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(984, 621)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 19
+        Me.PictureBox1.TabStop = False
+        '
         'Kls3smstr1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -100,12 +113,14 @@ Partial Class Kls3smstr1
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.PictureBox1)
         Me.DoubleBuffered = True
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Kls3smstr1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Kelas 3 - Semester 1"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -115,4 +130,5 @@ Partial Class Kls3smstr1
     Friend WithEvents Button2 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

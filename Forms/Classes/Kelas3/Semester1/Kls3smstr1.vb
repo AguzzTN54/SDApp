@@ -40,4 +40,31 @@
         Me.Hide()
         PilihKelas.Show()
     End Sub
+
+    Private Sub Kls3smstr1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        With Button2
+            .Parent = PictureBox1
+            .FlatStyle = Windows.Forms.FlatStyle.Flat
+            .FlatAppearance.BorderSize = 0
+            .FlatAppearance.MouseDownBackColor = Color.Transparent
+            .FlatAppearance.MouseOverBackColor = Color.Transparent
+            .BackColor = Color.Transparent
+        End With
+        With Button5
+            .Parent = PictureBox1
+            .FlatStyle = Windows.Forms.FlatStyle.Flat
+            .FlatAppearance.BorderSize = 0
+            .FlatAppearance.MouseDownBackColor = Color.Transparent
+            .FlatAppearance.MouseOverBackColor = Color.Transparent
+            .BackColor = Color.Transparent
+        End With
+        With Button6
+            .Parent = PictureBox1
+            .FlatStyle = Windows.Forms.FlatStyle.Flat
+            .FlatAppearance.BorderSize = 0
+            .FlatAppearance.MouseDownBackColor = Color.Transparent
+            .FlatAppearance.MouseOverBackColor = Color.Transparent
+            .BackColor = Color.Transparent
+        End With
+    End Sub
 End Class
