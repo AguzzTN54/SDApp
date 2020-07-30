@@ -130,6 +130,15 @@
   <data name="b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Speechs\b.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assets\Classes\Kelas1\Colors\black.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assets\Classes\Kelas1\Colors\blue.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assets\Classes\Kelas1\Colors\brown.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Alphabets\c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -162,6 +171,9 @@
   </data>
   <data name="g1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Speechs\g.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assets\Classes\Kelas1\Colors\green.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Alphabets\h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,11 +226,17 @@
   <data name="o1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Speechs\o.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assets\Classes\Kelas1\Colors\orange.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="p" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Alphabets\p.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Speechs\p.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assets\Classes\Kelas1\Colors\purple.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="q" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Alphabets\q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -231,6 +249,9 @@
   </data>
   <data name="r1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Speechs\r.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assets\Classes\Kelas1\Colors\red.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Alphabets\s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,6 +286,9 @@
   <data name="w1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Speechs\w.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assets\Classes\Kelas1\Colors\white.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Alphabets\x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -276,6 +300,9 @@
   </data>
   <data name="y1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Speechs\y.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assets\Classes\Kelas1\Colors\yellow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="z" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assets\Classes\Kelas1\Alphabets\z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

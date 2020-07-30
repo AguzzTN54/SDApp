@@ -4,7 +4,7 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile />
-    <PublishUrl>D:\STT\Semester 4\App Development\Release\</PublishUrl>
+    <PublishUrl>D:\STT\Semester 4\App Development\SDApp Learning\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -14,7 +14,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationRevision>4</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -109,6 +109,18 @@
       <DependentUpon>Alphabets.vb</DependentUpon>
     </Compile>
     <Compile Include="Forms\Classes\Kelas1\Alphabets\Alphabets.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas1\Colors\ColorItem.Designer.vb">
+      <DependentUpon>ColorItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas1\Colors\ColorItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas1\Colors\Colors.Designer.vb">
+      <DependentUpon>Colors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Kelas1\Colors\Colors.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Classes\Kelas3\MainKelas3.Designer.vb">
@@ -237,6 +249,12 @@
     <Compile Include="Forms\Classes\Kelas6\MateriKelas6.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Start\Start.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -303,6 +321,12 @@
     <EmbeddedResource Include="Forms\Classes\Kelas1\Alphabets\Alphabets.resx">
       <DependentUpon>Alphabets.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas1\Colors\ColorItem.resx">
+      <DependentUpon>ColorItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Classes\Kelas1\Colors\Colors.resx">
+      <DependentUpon>Colors.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas3\MainKelas3.resx">
       <DependentUpon>MainKelas3.vb</DependentUpon>
     </EmbeddedResource>
@@ -365,6 +389,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas6\MateriKelas6.resx">
       <DependentUpon>MateriKelas6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Start\Start.resx">
       <DependentUpon>Start.vb</DependentUpon>
@@ -479,14 +506,21 @@
     <None Include="Resources\Assets\Classes\Kelas1\Speechs\z.wav" />
     <None Include="Resources\Assets\Classes\Kelas2\hobby-thumb.png" />
     <None Include="Resources\Assets\Classes\Kelas2\food-thumb.png" />
+    <None Include="Resources\Assets\Classes\Kelas1\Colors\black.wav" />
+    <None Include="Resources\Assets\Classes\Kelas1\Colors\blue.wav" />
+    <None Include="Resources\Assets\Classes\Kelas1\Colors\brown.wav" />
+    <None Include="Resources\Assets\Classes\Kelas1\Colors\green.wav" />
+    <None Include="Resources\Assets\Classes\Kelas1\Colors\orange.wav" />
+    <None Include="Resources\Assets\Classes\Kelas1\Colors\purple.wav" />
+    <None Include="Resources\Assets\Classes\Kelas1\Colors\red.wav" />
+    <None Include="Resources\Assets\Classes\Kelas1\Colors\white.wav" />
+    <None Include="Resources\Assets\Classes\Kelas1\Colors\yellow.wav" />
     <Content Include="Resources\database\SDApp.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="SDApp.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Forms\Classes\Kelas1\Warna\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
       <Visible>False</Visible>
