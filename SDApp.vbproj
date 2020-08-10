@@ -79,7 +79,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Resources\ContentReader\Markdig.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Toolkit.Forms.UI.Controls.WebView, Version=6.1.0.0, Culture=neutral, PublicKeyToken=4aff67a105548ee2, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Toolkit.Forms.UI.Controls.WebView">
+      <HintPath>Resources\ContentReader\Microsoft.Toolkit.Forms.UI.Controls.WebView.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -171,28 +173,10 @@
     <Compile Include="Forms\Classes\Kelas4\MainKelas4.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Classes\Kelas4\Semester1\Materikls4smstr1.Designer.vb">
-      <DependentUpon>Materikls4smstr1.vb</DependentUpon>
+    <Compile Include="Forms\Classes\Kelas4\MateriKelas4.Designer.vb">
+      <DependentUpon>MateriKelas4.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Classes\Kelas4\Semester1\Materikls4smstr1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Classes\Kelas4\Semester1\Kls4smstr1.Designer.vb">
-      <DependentUpon>Kls4smstr1.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Classes\Kelas4\Semester1\Kls4smstr1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Classes\Kelas4\Semester2\Kls4smstr2.Designer.vb">
-      <DependentUpon>Kls4smstr2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Classes\Kelas4\Semester2\Kls4smstr2.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Classes\Kelas4\Semester2\Materikls4smstr2.Designer.vb">
-      <DependentUpon>Materikls4smstr2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Classes\Kelas4\Semester2\Materikls4smstr2.vb">
+    <Compile Include="Forms\Classes\Kelas4\MateriKelas4.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Classes\Kelas5\MainKelas5.Designer.vb">
@@ -351,17 +335,8 @@
     <EmbeddedResource Include="Forms\Classes\Kelas4\MainKelas4.resx">
       <DependentUpon>MainKelas4.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Classes\Kelas4\Semester1\Materikls4smstr1.resx">
-      <DependentUpon>Materikls4smstr1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Classes\Kelas4\Semester1\Kls4smstr1.resx">
-      <DependentUpon>Kls4smstr1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Classes\Kelas4\Semester2\Kls4smstr2.resx">
-      <DependentUpon>Kls4smstr2.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Classes\Kelas4\Semester2\Materikls4smstr2.resx">
-      <DependentUpon>Materikls4smstr2.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\Classes\Kelas4\MateriKelas4.resx">
+      <DependentUpon>MateriKelas4.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Classes\Kelas5\MainKelas5.resx">
       <DependentUpon>MainKelas5.vb</DependentUpon>

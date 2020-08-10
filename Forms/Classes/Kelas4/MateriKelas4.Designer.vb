@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Materikls4smstr2
+Partial Class MateriKelas4
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Materikls4smstr2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Materikls4smstr2))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MateriKelas4))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -52,9 +52,9 @@ Partial Class Materikls4smstr2
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button5.Font = New System.Drawing.Font("Bahnschrift", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Location = New System.Drawing.Point(506, 90)
+        Me.Button5.Location = New System.Drawing.Point(41, 84)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(429, 61)
+        Me.Button5.Size = New System.Drawing.Size(419, 73)
         Me.Button5.TabIndex = 21
         Me.Button5.UseVisualStyleBackColor = True
         Me.Button5.Visible = False
@@ -117,13 +117,13 @@ Partial Class Materikls4smstr2
         '
         'WebView1
         '
-        Me.WebView1.Location = New System.Drawing.Point(44, 155)
+        Me.WebView1.Location = New System.Drawing.Point(43, 155)
         Me.WebView1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebView1.Name = "WebView1"
-        Me.WebView1.Size = New System.Drawing.Size(896, 391)
+        Me.WebView1.Size = New System.Drawing.Size(897, 391)
         Me.WebView1.TabIndex = 22
         '
-        'Materikls4smstr2
+        'MateriKelas4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -137,7 +137,7 @@ Partial Class Materikls4smstr2
         Me.Controls.Add(Me.PictureBox1)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "Materikls4smstr2"
+        Me.Name = "MateriKelas4"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Kelas 4 - Semester 2"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

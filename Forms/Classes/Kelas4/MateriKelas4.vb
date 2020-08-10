@@ -1,9 +1,10 @@
-﻿Public Class Materikls4smstr1
+﻿Public Class MateriKelas4
     Function ambilMateri(ByVal id)
         Call KoneksiDB()
         cmd = New OleDb.OleDbCommand("select * from data_materi where id=" & id & "", conn)
         dr = cmd.ExecuteReader
         dr.Read()
+
         Button3.Visible = True
         Button4.Visible = True
         Button5.Visible = True
@@ -13,7 +14,9 @@
             Dim lanjut = dr.GetValue(4)
             Dim prev = dr.GetValue(5)
 
+
             If prev Then
+
                 Button2.Visible = True
                 Button2.Tag = prev
             Else
@@ -21,6 +24,7 @@
             End If
 
             If lanjut Then
+
                 Button1.Visible = True
                 Button1.Tag = lanjut
             Else
@@ -33,8 +37,7 @@
             MsgBox("Belum Ada materi")
         End If
     End Function
-    Private Sub Materikls4smstr1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub Materikls4smstr2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         With Button3
             .Parent = PictureBox1
             .FlatStyle = Windows.Forms.FlatStyle.Flat
@@ -73,6 +76,7 @@
         End If
     End Sub
 
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         ambilMateri(Button1.Tag)
     End Sub
@@ -83,7 +87,7 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Me.Hide()
-        Kls4smstr1.Show()
+        MainKelas4.Show()
 
     End Sub
 
