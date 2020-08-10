@@ -1,4 +1,4 @@
-﻿Public Class Materikls3smstr1
+﻿Public Class MateriKelas3
     Function ambilMateri(ByVal id)
         Call KoneksiDB()
         cmd = New OleDb.OleDbCommand("select * from data_materi where id=" & id & "", conn)
@@ -14,6 +14,7 @@
             Dim prev = dr.GetValue(5)
 
             If prev Then
+
                 Button2.Visible = True
                 Button2.Tag = prev
             Else
@@ -21,6 +22,7 @@
             End If
 
             If lanjut Then
+
                 Button3.Visible = True
                 Button3.Tag = lanjut
             Else
@@ -34,25 +36,7 @@
         End If
     End Function
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        ambilMateri(Button2.Tag)
-    End Sub
-
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        ambilMateri(Button3.Tag)
-    End Sub
-
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Me.Hide()
-        Kls3smstr1.Show()
-    End Sub
-
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        Me.Hide()
-        PilihKelas.Show()
-    End Sub
-
-    Private Sub Materikls3smstr1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub MateriKelas3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call KoneksiDB()
         cmd = New OleDb.OleDbCommand("Select min(id) from data_materi where grade=3 and sub_bab='" & Button1.Tag & "'", conn)
         dr = cmd.ExecuteReader
@@ -62,5 +46,23 @@
             Dim id = dr.GetValue(0)
             ambilMateri(id)
         End If
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        ambilMateri(Button3.Tag)
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        ambilMateri(Button2.Tag)
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Me.Hide()
+        MainKelas3.Show()
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Me.Hide()
+        PilihKelas.Show()
     End Sub
 End Class
