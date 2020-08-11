@@ -83,7 +83,7 @@ Sebelum melakukan pengembangan terhadap aplikasi ini, terdapat beberapa requirem
 2. Double click pada file `SDApp.sln`
 3. Pada Tab Solution, klik kanan pada SDApp lalu pilih properties, ganti versi .NET Framework sesuai dengan versi yang telah terinstall, jangan gunakan .NET di bawah versi 4.7.1, karena belum mendukung WebView. apabila belum ada Framework yang sesuai
 4. Dalam pengembangannya aplikasi ini membutuhkan tambahan Reference, yaitu `Markdig` dan `Webview`. kedua third party terebut telah termasuk dalam berkas yang didownload, bisa ditemukan pada folder `Resources/ContentReader`
-5. Pada Tab Solution, klik kanan pada **Reference**, kemudian pilih **Add Reference**, kemudian cari berkas `Markdig.dll` untuk ditambhakan
+5. Pada Tab Solution, klik kanan pada **Reference**, hapus `Microsoft.Toolkit.Forms.UI.Controls.WebView.dll` apabila terdapat segitiga warna kuning, kemudian pilih **Add Reference**, dan cari berkas `Markdig.dll` dan `Microsoft.Toolkit.Forms.UI.Controls.WebView.dll` untuk ditambahkan
 6. Pada Tab Toolbox, klik kanan di ruang kosong tab tersebut, pilih **Choose Item**, kemudian klik tombol **Browse**, cari Berkas `Microsoft.Toolkit.Forms.UI.Controls.WebView.dll` di folder Content Reader. Tunggu bebrapa saaat, Centang Webview lalu Apply.
 7. Aplikasi siap dikembangkan
 
@@ -132,7 +132,7 @@ Untuk menginstall package yang dibangun dengan ekosistem .NET, sistem operasi ha
 3. **Universal Installer**,
    Memiliki file size yang cukup besar. 100% offline sejak pertama kali diinstall. Mudah untuk diinstall. Tidak bergantung pada aplikasi lain. Dibangun menggunakan Library Electron\
    [SDApp Learning.msi](https://github.com/AguzzTN54/SDApp/releases/download/v1.0-alpha/SDApp_Learning-1.0.0-setup.msi) - 64.2 MB\
-   [SDApp Learning.exe](https://github.com/AguzzTN54/SDApp/releases/download/v1.0-alpha/SDApp_Learning-1.0.0-setup.exe) - 64.2 MB\
+   [SDApp Learning.exe](https://github.com/AguzzTN54/SDApp/releases/download/v1.0-alpha/SDApp_Learning-1.0.0-setup.exe) - 64.2 MB
 
 ### Mac OS
 
@@ -198,18 +198,18 @@ Aplikasi dibagun bersama Tim yang berjumlah 22 Mahasiswa dari kelas TI Semester 
 
 # PROGRESS
 
-| Date            | Do                                |
-| --------------- | --------------------------------- |
-| `13 April 2020` | Menyusun TIM                      |
-| `20 April 2020` | Menentukan Logo Tim               |
-| `11 May 2020`   | Merancang Proyek                  |
-| `14 Juni 2020`  | Merancang Desain Aplikasi         |
-| `7 Juli 2020`   | Tahap Development ( VB.NET )      |
-| `21 Juli 2020`  | Tahap Development ( PWA/TWA )     |
-| `28 Juli 2020`  | Tahap Development ( Windows/Mac ) |
-| `----`          | Tahap Production                  |
-| `----`          | Quality Assurance                 |
-| `----`          | Release Aplikasi                  |
+| Date              | Do                                |
+| ----------------- | --------------------------------- |
+| `13 April 2020`   | Menyusun TIM                      |
+| `20 April 2020`   | Menentukan Logo Tim               |
+| `11 May 2020`     | Merancang Proyek                  |
+| `14 Juni 2020`    | Merancang Desain Aplikasi         |
+| `7 Juli 2020`     | Tahap Development ( VB.NET )      |
+| `21 Juli 2020`    | Tahap Development ( PWA/TWA )     |
+| `28 Juli 2020`    | Tahap Development ( Windows/Mac ) |
+| `10 Agustus 2020` | Tahap Production                  |
+| `----`            | Quality Assurance                 |
+| `----`            | Release Aplikasi                  |
 
 # LICENSE
 
